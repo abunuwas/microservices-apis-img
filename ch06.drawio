@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T00:17:13.625Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="EViM3rSqSLWJ5BzE6nFe" version="13.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-10T00:30:43.035Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="gT9INVY1y_KhtbTedzk9" version="13.9.2" type="github" pages="4">
   <diagram id="aoiQT1OglqEhxXpXzLPJ" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -65,67 +65,133 @@
       <root>
         <mxCell id="muqCg_7ynaFDs2xk0H83-0" />
         <mxCell id="muqCg_7ynaFDs2xk0H83-1" parent="muqCg_7ynaFDs2xk0H83-0" />
-        <mxCell id="muqCg_7ynaFDs2xk0H83-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;/kitchen/schedule&lt;/font&gt;" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;" vertex="1" parent="muqCg_7ynaFDs2xk0H83-1">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;/kitchen/schedule&lt;/font&gt;" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;" parent="muqCg_7ynaFDs2xk0H83-1" vertex="1">
           <mxGeometry x="110" y="250" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;/kitchen/schedule/{schedule_id}&lt;/font&gt;" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;" vertex="1" parent="muqCg_7ynaFDs2xk0H83-1">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;/kitchen/schedule/{schedule_id}&lt;/font&gt;" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;" parent="muqCg_7ynaFDs2xk0H83-1" vertex="1">
           <mxGeometry x="110" y="510" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;/kitchen/schedule/{schedule_id}/cancel&lt;/font&gt;" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;" vertex="1" parent="muqCg_7ynaFDs2xk0H83-1">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;/kitchen/schedule/{schedule_id}/cancel&lt;/font&gt;" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;" parent="muqCg_7ynaFDs2xk0H83-1" vertex="1">
           <mxGeometry x="110" y="720" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-2" target="muqCg_7ynaFDs2xk0H83-7">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-2" target="muqCg_7ynaFDs2xk0H83-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="240" as="sourcePoint" />
             <mxPoint x="480" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-7" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;GET&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Returns a list of scheduled orders&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" vertex="1" parent="muqCg_7ynaFDs2xk0H83-1">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-7" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;GET&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Returns a list of scheduled orders&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" parent="muqCg_7ynaFDs2xk0H83-1" vertex="1">
           <mxGeometry x="510" y="190" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-8" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;POST&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Schedules an order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" vertex="1" parent="muqCg_7ynaFDs2xk0H83-1">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-8" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;POST&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Schedules an order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" parent="muqCg_7ynaFDs2xk0H83-1" vertex="1">
           <mxGeometry x="510" y="290" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-2" target="muqCg_7ynaFDs2xk0H83-8">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-2" target="muqCg_7ynaFDs2xk0H83-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="230" as="sourcePoint" />
             <mxPoint x="520" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-3" target="muqCg_7ynaFDs2xk0H83-11">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-3" target="muqCg_7ynaFDs2xk0H83-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="480" as="sourcePoint" />
             <mxPoint x="480" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;GET&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Returns the details of a scheduled order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" vertex="1" parent="muqCg_7ynaFDs2xk0H83-1">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;GET&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Returns the details of a scheduled order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" parent="muqCg_7ynaFDs2xk0H83-1" vertex="1">
           <mxGeometry x="510" y="490" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-12" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-3" target="muqCg_7ynaFDs2xk0H83-13">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-12" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-3" target="muqCg_7ynaFDs2xk0H83-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="500" as="sourcePoint" />
             <mxPoint x="490" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;PUT&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Updates an scheduled order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" vertex="1" parent="muqCg_7ynaFDs2xk0H83-1">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;PUT&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Updates an scheduled order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" parent="muqCg_7ynaFDs2xk0H83-1" vertex="1">
           <mxGeometry x="510" y="390" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-14" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-3" target="muqCg_7ynaFDs2xk0H83-15">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-14" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-3" target="muqCg_7ynaFDs2xk0H83-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="670" as="sourcePoint" />
             <mxPoint x="500" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-15" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;DELETE&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Deletes a scheduled order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" vertex="1" parent="muqCg_7ynaFDs2xk0H83-1">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-15" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;DELETE&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Deletes a scheduled order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" parent="muqCg_7ynaFDs2xk0H83-1" vertex="1">
           <mxGeometry x="510" y="600" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-16" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;POST&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Cancels a scheduled order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" vertex="1" parent="muqCg_7ynaFDs2xk0H83-1">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-16" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;POST&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Cancels a scheduled order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" parent="muqCg_7ynaFDs2xk0H83-1" vertex="1">
           <mxGeometry x="510" y="700" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="muqCg_7ynaFDs2xk0H83-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-4" target="muqCg_7ynaFDs2xk0H83-16">
+        <mxCell id="muqCg_7ynaFDs2xk0H83-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-4" target="muqCg_7ynaFDs2xk0H83-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="745" as="sourcePoint" />
             <mxPoint x="520" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mCi14-t4m2uscYMfiA64" name="Page-4">
+    <mxGraphModel dx="815" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-0" />
+        <mxCell id="u79OwwehcTu_RxG8LG4T-1" parent="u79OwwehcTu_RxG8LG4T-0" />
+        <mxCell id="u79OwwehcTu_RxG8LG4T-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;/kitchen/schedule&lt;/font&gt;" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;" vertex="1" parent="u79OwwehcTu_RxG8LG4T-1">
+          <mxGeometry x="110" y="250" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-3" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u79OwwehcTu_RxG8LG4T-1" source="u79OwwehcTu_RxG8LG4T-2" target="u79OwwehcTu_RxG8LG4T-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="240" as="sourcePoint" />
+            <mxPoint x="480" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;GET&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Returns a list of scheduled orders&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" vertex="1" parent="u79OwwehcTu_RxG8LG4T-1">
+          <mxGeometry x="510" y="190" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-5" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;POST&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Schedules an order&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;" vertex="1" parent="u79OwwehcTu_RxG8LG4T-1">
+          <mxGeometry x="510" y="290" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u79OwwehcTu_RxG8LG4T-1" source="u79OwwehcTu_RxG8LG4T-2" target="u79OwwehcTu_RxG8LG4T-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="230" as="sourcePoint" />
+            <mxPoint x="520" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-7" value="&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm&quot;&gt;&lt;font face=&quot;courier new&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;@blueprint.route(&#39;/kitchen/schedule&#39;)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm&quot;&gt;&lt;font face=&quot;courier new&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;class KitchenSchedules(MethodView):&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm&quot;&gt;&lt;font face=&quot;courier new&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm&quot;&gt;&lt;font face=&quot;courier new&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; &amp;nbsp; def get(self):&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm&quot;&gt;&lt;font face=&quot;courier new&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return {&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm&quot;&gt;&lt;font face=&quot;courier new&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;schedules&#39;: [schedule]&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm&quot;&gt;&lt;font face=&quot;courier new&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }, 200&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm&quot;&gt;&lt;font face=&quot;courier new&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm&quot;&gt;&lt;font face=&quot;courier new&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; &amp;nbsp; def post(self, payload):&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm&quot;&gt;&lt;font face=&quot;courier new&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return schedules, 201&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;text-indent: -37.7953px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" vertex="1" parent="u79OwwehcTu_RxG8LG4T-1">
+          <mxGeometry x="200" y="430" width="290" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-8" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=none;" vertex="1" parent="u79OwwehcTu_RxG8LG4T-1">
+          <mxGeometry x="190" y="440" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.326;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="u79OwwehcTu_RxG8LG4T-1" source="u79OwwehcTu_RxG8LG4T-2" target="u79OwwehcTu_RxG8LG4T-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="460" as="sourcePoint" />
+            <mxPoint x="130" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-10" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=none;" vertex="1" parent="u79OwwehcTu_RxG8LG4T-1">
+          <mxGeometry x="220" y="490" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-11" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=none;" vertex="1" parent="u79OwwehcTu_RxG8LG4T-1">
+          <mxGeometry x="220" y="560" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-12" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="u79OwwehcTu_RxG8LG4T-1" source="u79OwwehcTu_RxG8LG4T-4" target="u79OwwehcTu_RxG8LG4T-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="520" as="sourcePoint" />
+            <mxPoint x="600" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="230" />
+              <mxPoint x="730" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u79OwwehcTu_RxG8LG4T-13" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.529;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="u79OwwehcTu_RxG8LG4T-1" source="u79OwwehcTu_RxG8LG4T-5" target="u79OwwehcTu_RxG8LG4T-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="580" as="sourcePoint" />
+            <mxPoint x="620" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="570" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
