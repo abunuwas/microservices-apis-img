@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T00:36:32.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="9-KcPmDEp2CPPUqKaYfb" version="13.9.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-10T00:37:19.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="YiWqGxugEgrgJGUO3TbV" version="13.9.2" type="github" pages="5">
   <diagram id="aoiQT1OglqEhxXpXzLPJ" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -216,6 +216,21 @@
         </mxCell>
         <mxCell id="36_s_v7374U1gvwHuqAN-5" value="&lt;p class=&quot;CodeACxSpFirst&quot; style=&quot;text-align: left ; margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm ; font-size: 7.5pt ; font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;@blueprint.route(&#39;/kitchen/schedule/&amp;lt;schedule_id&amp;gt;/cancel&#39;)&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpMiddle&quot; style=&quot;text-align: left ; margin: 0cm 0cm 0cm 1cm ; text-indent: -1cm ; font-size: 7.5pt ; font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;def cancel_schedule(schedule_id):&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;CodeACxSpLast&quot; style=&quot;text-align: left ; margin: 0cm 0cm 9pt 1cm ; text-indent: -1cm ; font-size: 7.5pt ; font-family: &amp;#34;courier new&amp;#34;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; return schedules[0], 200&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: rgb(242 , 242 , 242)&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" vertex="1" parent="36_s_v7374U1gvwHuqAN-1">
           <mxGeometry x="160" y="220" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="36_s_v7374U1gvwHuqAN-6" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=none;" vertex="1" parent="36_s_v7374U1gvwHuqAN-1">
+          <mxGeometry x="180" y="230" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="36_s_v7374U1gvwHuqAN-7" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;entryX=0.242;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.464;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="36_s_v7374U1gvwHuqAN-1" source="36_s_v7374U1gvwHuqAN-2" target="36_s_v7374U1gvwHuqAN-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="200" as="sourcePoint" />
+            <mxPoint x="270" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36_s_v7374U1gvwHuqAN-8" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;entryX=0.659;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.429;exitY=1.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="36_s_v7374U1gvwHuqAN-1" source="36_s_v7374U1gvwHuqAN-3" target="36_s_v7374U1gvwHuqAN-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229.91999999999996" y="120.00000000000006" as="sourcePoint" />
+            <mxPoint x="277.12" y="239.61" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
