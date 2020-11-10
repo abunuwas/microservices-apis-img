@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T00:43:47.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="Fwle_9H3t0OMqndM4r2Y" version="13.9.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-10T00:45:02.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="l25grI7sgVDZ67b4WgQy" version="13.9.2" type="github" pages="6">
   <diagram id="aoiQT1OglqEhxXpXzLPJ" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -279,6 +279,28 @@
         </mxCell>
         <mxCell id="r_W4V_991n2jPoJ_s3og-11" value="It provides a sample payload based on the schema" style="text;html=1;strokeColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" vertex="1" parent="r_W4V_991n2jPoJ_s3og-1">
           <mxGeometry x="-80" y="300" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_W4V_991n2jPoJ_s3og-13" value="It tells us that the request payload is required" style="text;html=1;strokeColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" vertex="1" parent="r_W4V_991n2jPoJ_s3og-1">
+          <mxGeometry x="-160" y="231.45" width="150" height="42.91" as="geometry" />
+        </mxCell>
+        <mxCell id="r_W4V_991n2jPoJ_s3og-14" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="r_W4V_991n2jPoJ_s3og-1" source="r_W4V_991n2jPoJ_s3og-13" target="r_W4V_991n2jPoJ_s3og-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="280" as="sourcePoint" />
+            <mxPoint x="-200" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r_W4V_991n2jPoJ_s3og-15" value="It tells us that this endpoint doesn&#39;t take URL parameters" style="text;html=1;strokeColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;" vertex="1" parent="r_W4V_991n2jPoJ_s3og-1">
+          <mxGeometry x="-180" y="167.08999999999997" width="150" height="42.91" as="geometry" />
+        </mxCell>
+        <mxCell id="r_W4V_991n2jPoJ_s3og-16" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="r_W4V_991n2jPoJ_s3og-1" source="r_W4V_991n2jPoJ_s3og-15" target="r_W4V_991n2jPoJ_s3og-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-270" y="215.64" as="sourcePoint" />
+            <mxPoint x="30" y="188.54999999999984" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="189" />
+              <mxPoint y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
