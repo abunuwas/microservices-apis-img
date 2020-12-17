@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T00:01:06.510Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="XncIWPvm5ru5D394itPI" version="14.0.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2020-12-17T00:04:28.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tJKiRkrP8R-BpOgBkAio" version="14.0.1" type="github" pages="12">
   <diagram id="HpvFlHsMDMloAz6o6ulz" name="2.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -156,14 +156,14 @@
       <root>
         <mxCell id="fzDgdrDMkB47kVen7CbH-0" />
         <mxCell id="fzDgdrDMkB47kVen7CbH-1" parent="fzDgdrDMkB47kVen7CbH-0" />
-        <mxCell id="fzDgdrDMkB47kVen7CbH-2" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span&gt;Data layer&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Interfaces with the source of data&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="fzDgdrDMkB47kVen7CbH-1" vertex="1">
-          <mxGeometry x="590" y="160" width="160" height="90" as="geometry" />
+        <mxCell id="fzDgdrDMkB47kVen7CbH-2" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span&gt;Data layer&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Interfaces with the source of data&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="fzDgdrDMkB47kVen7CbH-1" vertex="1">
+          <mxGeometry x="590" y="160" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="fzDgdrDMkB47kVen7CbH-3" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Application layer&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Implements the capabilities of the service&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="fzDgdrDMkB47kVen7CbH-1" vertex="1">
-          <mxGeometry x="340" y="160" width="170" height="90" as="geometry" />
+        <mxCell id="fzDgdrDMkB47kVen7CbH-3" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Application layer&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Implements the capabilities of the service&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="fzDgdrDMkB47kVen7CbH-1" vertex="1">
+          <mxGeometry x="340" y="160" width="170" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="fzDgdrDMkB47kVen7CbH-4" value="&lt;font style=&quot;font-size: 12px&quot;&gt;API&lt;br&gt;&lt;br&gt;Exposes the capabilities of the service and controls interactions with the user&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="fzDgdrDMkB47kVen7CbH-1" vertex="1">
-          <mxGeometry x="20" y="160" width="250" height="90" as="geometry" />
+        <mxCell id="fzDgdrDMkB47kVen7CbH-4" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;API&lt;br&gt;&lt;br&gt;Exposes the capabilities of the service and controls interactions with the user&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="fzDgdrDMkB47kVen7CbH-1" vertex="1">
+          <mxGeometry x="20" y="160" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="fzDgdrDMkB47kVen7CbH-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.392;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" parent="fzDgdrDMkB47kVen7CbH-1" source="fzDgdrDMkB47kVen7CbH-4" target="fzDgdrDMkB47kVen7CbH-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -176,6 +176,15 @@
             <mxPoint x="590" y="210" as="sourcePoint" />
             <mxPoint x="679.54" y="210.00000000000006" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VrBwYPB_VfQ-TNrnCiqr-1" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="fzDgdrDMkB47kVen7CbH-1">
+          <mxGeometry x="130.25" y="240" width="29.51" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBwYPB_VfQ-TNrnCiqr-2" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.capabilities" vertex="1" parent="fzDgdrDMkB47kVen7CbH-1">
+          <mxGeometry x="399" y="240" width="52.63" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VrBwYPB_VfQ-TNrnCiqr-4" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="fzDgdrDMkB47kVen7CbH-1">
+          <mxGeometry x="655" y="250" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
