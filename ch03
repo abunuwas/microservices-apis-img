@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T22:12:03.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="fZTMFBRX940qMdoqIeYI" version="14.0.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-12-28T22:13:03.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="YwUVknte4FGN28b4xKVl" version="14.0.5" type="github" pages="15">
   <diagram id="SPfHcpYYUhe2oHMZ6YBy" name="3.1">
     <mxGraphModel dx="1186" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1198,10 +1198,10 @@
         <mxCell id="EZM4gj4Dpeq8RCWSSU43-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Orders subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
           <mxGeometry x="-612.5" y="270" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EZM4gj4Dpeq8RCWSSU43-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Kitchen subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
+        <mxCell id="EZM4gj4Dpeq8RCWSSU43-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Kitchen subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
           <mxGeometry x="-290" y="480" width="131.25" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EZM4gj4Dpeq8RCWSSU43-8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Delivery subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
+        <mxCell id="EZM4gj4Dpeq8RCWSSU43-8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Delivery subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
           <mxGeometry x="-480" y="674" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EZM4gj4Dpeq8RCWSSU43-13" value="" style="endArrow=classic;html=1;exitX=1.006;exitY=0.448;exitDx=0;exitDy=0;fontSize=12;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EZM4gj4Dpeq8RCWSSU43-1" source="Y_vAqy3iwfvpPnGKWzaz-1" target="EZM4gj4Dpeq8RCWSSU43-17">
@@ -1213,7 +1213,7 @@
         <mxCell id="EZM4gj4Dpeq8RCWSSU43-15" value="&lt;font style=&quot;font-size: 12px&quot;&gt;If payment is successful, the orders subdomain schedules the order with the kitchen service.&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
           <mxGeometry x="-510" y="440" width="213.75" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="EZM4gj4Dpeq8RCWSSU43-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Products subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
+        <mxCell id="EZM4gj4Dpeq8RCWSSU43-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Products subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
           <mxGeometry x="-295" y="130" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EZM4gj4Dpeq8RCWSSU43-23" value="&lt;font style=&quot;font-size: 12px&quot;&gt;When the user lands in the website, the frontend application requests a list of products for the user from the orders subdomain&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
@@ -1270,7 +1270,7 @@
         <mxCell id="Y_vAqy3iwfvpPnGKWzaz-6" value="&lt;font style=&quot;font-size: 12px&quot;&gt;User pays the order with the orders subdomain&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
           <mxGeometry x="-765" y="350" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EZM4gj4Dpeq8RCWSSU43-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Payments subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
+        <mxCell id="EZM4gj4Dpeq8RCWSSU43-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Payments subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
           <mxGeometry x="-290" y="370" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Y_vAqy3iwfvpPnGKWzaz-8" value="" style="endArrow=classic;html=1;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EZM4gj4Dpeq8RCWSSU43-1" source="Y_vAqy3iwfvpPnGKWzaz-4" target="EZM4gj4Dpeq8RCWSSU43-6">
@@ -1297,7 +1297,7 @@
         <mxCell id="Y_vAqy3iwfvpPnGKWzaz-18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;The orders subdomain interfaces with the kitchen subdomain to check progress on the order&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
           <mxGeometry x="-520" y="520" width="213.75" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Y_vAqy3iwfvpPnGKWzaz-19" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Kitchen subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
+        <mxCell id="Y_vAqy3iwfvpPnGKWzaz-19" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Kitchen subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EZM4gj4Dpeq8RCWSSU43-1">
           <mxGeometry x="-290" y="560" width="131.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Y_vAqy3iwfvpPnGKWzaz-20" value="" style="endArrow=classic;html=1;fontSize=9;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EZM4gj4Dpeq8RCWSSU43-1" target="Y_vAqy3iwfvpPnGKWzaz-19">
