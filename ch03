@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T21:39:26.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="D3onB3GKtyOqQPqa-lyj" version="14.0.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-12-28T21:41:07.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="BruHORxYAZiimRZljcyM" version="14.0.5" type="github" pages="15">
   <diagram id="SPfHcpYYUhe2oHMZ6YBy" name="3.1">
     <mxGraphModel dx="1186" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1115,7 +1115,7 @@
         <mxCell id="peq3aPJYeAAlWVUA5gy7-31" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Your order is getting closer!&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
           <mxGeometry x="298.94" y="750" width="185" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="peq3aPJYeAAlWVUA5gy7-32" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Step 7&lt;/b&gt;: User must be able to track the itinerary of the drone as it brings the coffee to them&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
+        <mxCell id="peq3aPJYeAAlWVUA5gy7-32" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Step 7&lt;/b&gt;: User must be able to track the itinerary of the drone while it delivers the order&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
           <mxGeometry x="286.44" y="680" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d9j0m3nyJooV9afq8J2L-6" value="Customer" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
