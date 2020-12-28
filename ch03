@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T22:17:21.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="uK5D3-2lT_ZJjq6DBY_E" version="14.0.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-12-28T22:17:58.766Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Xp6-OUzOYtvZ-dvXOabH" version="14.0.5" type="github" pages="15">
   <diagram id="SPfHcpYYUhe2oHMZ6YBy" name="3.1">
     <mxGraphModel dx="1186" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1401,6 +1401,12 @@
             <mxPoint x="220" y="519.5" as="sourcePoint" />
             <mxPoint x="317" y="519.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hNkrGP3iGbKzCtzNDrXx-1" value="Subdomains" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;strokeColor=#000000;dashed=1;" vertex="1" parent="y15NkVdkwQSnxpqHtGcS-1">
+          <mxGeometry x="110" y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hNkrGP3iGbKzCtzNDrXx-2" value="Microservices" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;strokeColor=#000000;dashed=1;" vertex="1" parent="y15NkVdkwQSnxpqHtGcS-1">
+          <mxGeometry x="337" y="70" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
