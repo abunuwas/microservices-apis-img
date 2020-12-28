@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T16:24:46.199Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="DddrzDVkK3wUhR9iQcuX" version="14.0.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2020-12-28T16:27:19.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Ivxrp1QBhIm2LtC3yQOn" version="14.0.5" type="github" pages="12">
   <diagram id="HpvFlHsMDMloAz6o6ulz" name="2.1">
     <mxGraphModel dx="1186" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z09mwaPIimHz9XqKMn25" name="2.4">
-    <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="949" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="b7rX0rcy8qeb9liKvhND-0" />
         <mxCell id="b7rX0rcy8qeb9liKvhND-1" parent="b7rX0rcy8qeb9liKvhND-0" />
@@ -239,8 +239,17 @@
         <mxCell id="b7rX0rcy8qeb9liKvhND-11" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;3. The application layer interfaces with the data layer in order to persist data about the user&#39;s request&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="b7rX0rcy8qeb9liKvhND-1" vertex="1">
           <mxGeometry x="580" y="190" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bjVUvK9rK9SouQ39d_o6-0" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="b7rX0rcy8qeb9liKvhND-1">
+        <mxCell id="bjVUvK9rK9SouQ39d_o6-0" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" parent="b7rX0rcy8qeb9liKvhND-1" vertex="1">
           <mxGeometry x="40" y="128.2" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="daQ_UfAd8DivNSu0k40v-0" value="API" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="b7rX0rcy8qeb9liKvhND-1">
+          <mxGeometry x="180" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="daQ_UfAd8DivNSu0k40v-1" value="Business layer" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="b7rX0rcy8qeb9liKvhND-1">
+          <mxGeometry x="370" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="daQ_UfAd8DivNSu0k40v-2" value="Data layer" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="b7rX0rcy8qeb9liKvhND-1">
+          <mxGeometry x="595" y="80" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
