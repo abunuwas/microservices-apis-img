@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T18:57:42.980Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="5Q2hvx_TB6b0mWQKFtA9" version="14.0.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-12-28T18:58:47.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dwmfNrxkUVocRPs3pxgZ" version="14.0.5" type="github" pages="15">
   <diagram id="SPfHcpYYUhe2oHMZ6YBy" name="3.1">
     <mxGraphModel dx="1186" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1019,18 +1019,15 @@
       <root>
         <mxCell id="peq3aPJYeAAlWVUA5gy7-0" />
         <mxCell id="peq3aPJYeAAlWVUA5gy7-1" parent="peq3aPJYeAAlWVUA5gy7-0" />
-        <mxCell id="peq3aPJYeAAlWVUA5gy7-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Customer&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
-          <mxGeometry x="40" y="184" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="peq3aPJYeAAlWVUA5gy7-3" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Available products:&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Cappuccino ★★ $10&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Latte (out of stock) ★★★ $4&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Americano $2&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Espresso (out of stock) $8&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Moca ★★★★★ $15&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
           <mxGeometry x="140" y="129" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="peq3aPJYeAAlWVUA5gy7-4" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Step 1&lt;/b&gt;: The user lands in the website and we show a list of products on offer with their availability and user rating when available&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
           <mxGeometry x="110" y="59" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="peq3aPJYeAAlWVUA5gy7-5" value="" style="endArrow=classic;html=1;fontSize=12;" edge="1" parent="peq3aPJYeAAlWVUA5gy7-1" source="peq3aPJYeAAlWVUA5gy7-2">
+        <mxCell id="peq3aPJYeAAlWVUA5gy7-5" value="" style="endArrow=classic;html=1;fontSize=12;exitX=0.996;exitY=0.54;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="peq3aPJYeAAlWVUA5gy7-1" source="d9j0m3nyJooV9afq8J2L-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="239" as="sourcePoint" />
+            <mxPoint x="70" y="213.6428571428571" as="sourcePoint" />
             <mxPoint x="139" y="212" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -1114,6 +1111,9 @@
         </mxCell>
         <mxCell id="peq3aPJYeAAlWVUA5gy7-32" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Step 7&lt;/b&gt;: User must be able to track the itinerary of the drone as it brings the coffee to them&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
           <mxGeometry x="130" y="839" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d9j0m3nyJooV9afq8J2L-6" value="Customer" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
+          <mxGeometry x="20" y="179" width="45.6" height="61.800000000000004" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
