@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T18:58:47.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dwmfNrxkUVocRPs3pxgZ" version="14.0.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-12-28T21:18:31.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="J0JFDslOS-Y6G5gHhXaa" version="14.0.5" type="github" pages="15">
   <diagram id="SPfHcpYYUhe2oHMZ6YBy" name="3.1">
     <mxGraphModel dx="1186" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1015,36 +1015,39 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aJPQoRDRORk3dIn_8TUp" name="3.11">
-    <mxGraphModel dx="949" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="peq3aPJYeAAlWVUA5gy7-0" />
         <mxCell id="peq3aPJYeAAlWVUA5gy7-1" parent="peq3aPJYeAAlWVUA5gy7-0" />
-        <mxCell id="peq3aPJYeAAlWVUA5gy7-3" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Available products:&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Cappuccino ★★ $10&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Latte (out of stock) ★★★ $4&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Americano $2&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Espresso (out of stock) $8&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Moca ★★★★★ $15&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
-          <mxGeometry x="140" y="129" width="250" height="160" as="geometry" />
+        <mxCell id="d9j0m3nyJooV9afq8J2L-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
+          <mxGeometry x="489" y="119" width="231" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="peq3aPJYeAAlWVUA5gy7-4" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Step 1&lt;/b&gt;: The user lands in the website and we show a list of products on offer with their availability and user rating when available&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
-          <mxGeometry x="110" y="59" width="310" height="60" as="geometry" />
+        <mxCell id="peq3aPJYeAAlWVUA5gy7-3" value="&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
+          <mxGeometry x="170" y="129" width="210" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="peq3aPJYeAAlWVUA5gy7-5" value="" style="endArrow=classic;html=1;fontSize=12;exitX=0.996;exitY=0.54;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="peq3aPJYeAAlWVUA5gy7-1" source="d9j0m3nyJooV9afq8J2L-6">
+        <mxCell id="peq3aPJYeAAlWVUA5gy7-4" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Step 1&lt;/b&gt;: The user lands on the website and we show a list of products on offer with their availability and user rating when available&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
+          <mxGeometry x="170" y="69" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="peq3aPJYeAAlWVUA5gy7-5" value="" style="endArrow=classic;html=1;fontSize=12;exitX=0.996;exitY=0.54;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="peq3aPJYeAAlWVUA5gy7-1" source="d9j0m3nyJooV9afq8J2L-6" target="d9j0m3nyJooV9afq8J2L-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="213.6428571428571" as="sourcePoint" />
             <mxPoint x="139" y="212" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="peq3aPJYeAAlWVUA5gy7-6" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Available products:&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;u style=&quot;font-size: 12px;&quot;&gt;Cappuccino ★★ $10&lt;/u&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Latte (out of stock) ★★★ $4&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Americano $2&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Espresso (out of stock) $8&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Moca ★★★★★ $15&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
-          <mxGeometry x="500" y="129" width="250" height="160" as="geometry" />
+        <mxCell id="peq3aPJYeAAlWVUA5gy7-6" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Available products:&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;u style=&quot;font-size: 12px;&quot;&gt;Cappuccino ★★ $10&lt;/u&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Latte (out of stock) ★★★ $4&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Americano $2&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Espresso (out of stock) $8&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Moca ★★★★★ $15&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
+          <mxGeometry x="497" y="134" width="213" height="115" as="geometry" />
         </mxCell>
         <mxCell id="peq3aPJYeAAlWVUA5gy7-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/699458-icon-27-one-finger-click-128.png;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
-          <mxGeometry x="520" y="179" width="40" height="40" as="geometry" />
+          <mxGeometry x="529" y="179" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="peq3aPJYeAAlWVUA5gy7-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/font-awesome/1792/shopping-basket-128.png;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
-          <mxGeometry x="712" y="159" width="20" height="20" as="geometry" />
+          <mxGeometry x="700" y="159" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="peq3aPJYeAAlWVUA5gy7-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_looks_one_48px-128.png;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
-          <mxGeometry x="710" y="135" width="24" height="24" as="geometry" />
+          <mxGeometry x="698" y="135" width="14" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="peq3aPJYeAAlWVUA5gy7-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Step 2&lt;/b&gt;:&amp;nbsp; The user selects a product from the list, which gets stored in a shopping basket&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
-          <mxGeometry x="470" y="49" width="310" height="70" as="geometry" />
+        <mxCell id="peq3aPJYeAAlWVUA5gy7-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Step 2&lt;/b&gt;:&amp;nbsp; The user selects a product from the list, which gets stored in a shopping basket&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
+          <mxGeometry x="489" y="70" width="231" height="49" as="geometry" />
         </mxCell>
         <mxCell id="peq3aPJYeAAlWVUA5gy7-11" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
           <mxGeometry x="145" y="409" width="250" height="140" as="geometry" />
@@ -1113,7 +1116,10 @@
           <mxGeometry x="130" y="839" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d9j0m3nyJooV9afq8J2L-6" value="Customer" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
-          <mxGeometry x="20" y="179" width="45.6" height="61.800000000000004" as="geometry" />
+          <mxGeometry x="20" y="168.1" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="d9j0m3nyJooV9afq8J2L-7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;Available products:&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Cappuccino ★★ $10&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Latte (out of stock) ★★★ $4&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Americano $2&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Espresso (out of stock) $8&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Moca ★★★★★ $15&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="peq3aPJYeAAlWVUA5gy7-1">
+          <mxGeometry x="170" y="129" width="210" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
