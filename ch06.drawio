@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T23:50:44.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="q5ygWfGNj2dek1O6dqVA" version="14.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-01-20T09:30:47.790Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="GoG6P7DIl8tucEb6XqSK" version="14.1.9" type="github" pages="11">
   <diagram id="s5-NlCj1laCB3OtM3teV" name="6.1">
     <mxGraphModel dx="949" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -247,7 +247,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g7vkmIHdKUWSmZbjW32N" name="6.3">
-    <mxGraphModel dx="1799" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1799" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Ow9Sr5hUagRu7l4nEZsO-0" />
         <mxCell id="Ow9Sr5hUagRu7l4nEZsO-1" parent="Ow9Sr5hUagRu7l4nEZsO-0" />
@@ -681,6 +681,110 @@
             <mxPoint x="-10" y="440" as="sourcePoint" />
             <mxPoint x="182" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="V3GBrtiLKomZwGjuoi27" name="Page-11">
+    <mxGraphModel dx="949" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-0" />
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-1" parent="7ZNwf2OA-UAVDMnr2gJq-0" />
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-2" value="server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="200" y="131.44" width="60" height="31.8" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-3" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="60" y="130" width="25.6" height="34.69" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="375" y="122.34" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-6" value="" style="endArrow=classic;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7ZNwf2OA-UAVDMnr2gJq-1" source="7ZNwf2OA-UAVDMnr2gJq-3" target="7ZNwf2OA-UAVDMnr2gJq-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-9" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7ZNwf2OA-UAVDMnr2gJq-1" source="7ZNwf2OA-UAVDMnr2gJq-2" target="7ZNwf2OA-UAVDMnr2gJq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="321.44" as="sourcePoint" />
+            <mxPoint x="460" y="271.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-10" value="A request arrives in the server for the GET /orders endpoint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="105" y="92.34" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-11" value="server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="200" y="231.44" width="60" height="31.8" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-12" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="60" y="230" width="25.6" height="34.69" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="375" y="222.34" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-14" value="" style="endArrow=classic;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7ZNwf2OA-UAVDMnr2gJq-1" source="7ZNwf2OA-UAVDMnr2gJq-12" target="7ZNwf2OA-UAVDMnr2gJq-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="490" as="sourcePoint" />
+            <mxPoint x="450" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-15" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7ZNwf2OA-UAVDMnr2gJq-1" source="7ZNwf2OA-UAVDMnr2gJq-11" target="7ZNwf2OA-UAVDMnr2gJq-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="421.44" as="sourcePoint" />
+            <mxPoint x="460" y="371.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-16" value="A second request arrives in the server for the GET /orders/{order_id} endpoint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="105" y="192.34" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-17" value="server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="200" y="329.1" width="60" height="31.8" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-18" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="60" y="327.65999999999997" width="25.6" height="34.69" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-19" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="375" y="320" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-20" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7ZNwf2OA-UAVDMnr2gJq-1" source="7ZNwf2OA-UAVDMnr2gJq-17" target="7ZNwf2OA-UAVDMnr2gJq-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="587.66" as="sourcePoint" />
+            <mxPoint x="150" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-21" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7ZNwf2OA-UAVDMnr2gJq-1" source="7ZNwf2OA-UAVDMnr2gJq-19" target="7ZNwf2OA-UAVDMnr2gJq-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="519.1" as="sourcePoint" />
+            <mxPoint x="330" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-22" value="The server processes and serves the first request for the GET /orders endpoint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="105" y="290" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-24" value="server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="200" y="419.1" width="60" height="31.8" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-25" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="60" y="417.65999999999997" width="25.6" height="34.69" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-26" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=1;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="375" y="410" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-27" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7ZNwf2OA-UAVDMnr2gJq-1" source="7ZNwf2OA-UAVDMnr2gJq-24" target="7ZNwf2OA-UAVDMnr2gJq-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="677.66" as="sourcePoint" />
+            <mxPoint x="150" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-28" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7ZNwf2OA-UAVDMnr2gJq-1" source="7ZNwf2OA-UAVDMnr2gJq-26" target="7ZNwf2OA-UAVDMnr2gJq-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="609.1" as="sourcePoint" />
+            <mxPoint x="330" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZNwf2OA-UAVDMnr2gJq-29" value="The server processes and serves the second request for the GET /orders/{order_id} endpoint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7ZNwf2OA-UAVDMnr2gJq-1">
+          <mxGeometry x="105" y="380" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
