@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T09:47:19.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="HJenF0yg09Kfs6vI1St3" version="14.1.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-01-20T09:49:04.518Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="EkFyL5Ieck36lT9kupGB" version="14.1.9" type="github" pages="12">
   <diagram id="s5-NlCj1laCB3OtM3teV" name="6.1">
     <mxGraphModel dx="949" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -825,10 +825,10 @@
           <mxGeometry x="43.5" y="185.01999999999998" width="454" height="97" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-4" value="" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;dashed=1;strokeColor=#6c8ebf;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
-          <mxGeometry x="43.5" y="293" width="454" height="97" as="geometry" />
+          <mxGeometry x="43.5" y="410" width="454" height="97" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-5" value="" style="text;html=1;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;dashed=1;strokeColor=#b85450;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
-          <mxGeometry x="43.5" y="400" width="454" height="110" as="geometry" />
+          <mxGeometry x="46" y="290" width="454" height="110" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-6" value="" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;dashed=1;strokeColor=#6c8ebf;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
           <mxGeometry x="46" y="83" width="454" height="97" as="geometry" />
@@ -882,52 +882,52 @@
           <mxGeometry x="105" y="192.34" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-19" value="server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
-          <mxGeometry x="200" y="339.1" width="60" height="31.8" as="geometry" />
+          <mxGeometry x="200" y="456.1" width="60" height="31.8" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-20" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;strokeWidth=1;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
-          <mxGeometry x="60" y="337.65999999999997" width="25.6" height="34.69" as="geometry" />
+          <mxGeometry x="60" y="454.65999999999997" width="25.6" height="34.69" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-21" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=1;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
-          <mxGeometry x="375" y="330" width="40" height="50" as="geometry" />
+          <mxGeometry x="375" y="447" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-22" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="QhgG2MZpiGPSlkuTFGe9-1" source="QhgG2MZpiGPSlkuTFGe9-19" target="QhgG2MZpiGPSlkuTFGe9-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="597.66" as="sourcePoint" />
-            <mxPoint x="150" y="400" as="targetPoint" />
+            <mxPoint x="400" y="714.66" as="sourcePoint" />
+            <mxPoint x="150" y="517" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-23" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QhgG2MZpiGPSlkuTFGe9-1" source="QhgG2MZpiGPSlkuTFGe9-21" target="QhgG2MZpiGPSlkuTFGe9-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="529.1" as="sourcePoint" />
-            <mxPoint x="330" y="410" as="targetPoint" />
+            <mxPoint x="410" y="646.1" as="sourcePoint" />
+            <mxPoint x="330" y="527" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QhgG2MZpiGPSlkuTFGe9-24" value="The server processes and serves the first request for the GET /orders endpoint after 2 seconds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
-          <mxGeometry x="105" y="300" width="250" height="30" as="geometry" />
+        <mxCell id="QhgG2MZpiGPSlkuTFGe9-24" value="The serves the first request for the GET /orders endpoint after 2 seconds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
+          <mxGeometry x="105" y="417" width="265" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-25" value="server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
-          <mxGeometry x="200" y="459.1" width="60" height="31.8" as="geometry" />
+          <mxGeometry x="202.5" y="349.1" width="60" height="31.8" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-26" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;strokeWidth=1;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
-          <mxGeometry x="60" y="457.65999999999997" width="25.6" height="34.69" as="geometry" />
+          <mxGeometry x="62.5" y="347.65999999999997" width="25.6" height="34.69" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-27" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=1;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
-          <mxGeometry x="375" y="450" width="40" height="50" as="geometry" />
+          <mxGeometry x="377.5" y="340" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-28" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="QhgG2MZpiGPSlkuTFGe9-1" source="QhgG2MZpiGPSlkuTFGe9-25" target="QhgG2MZpiGPSlkuTFGe9-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="717.66" as="sourcePoint" />
-            <mxPoint x="150" y="520" as="targetPoint" />
+            <mxPoint x="402.5" y="607.66" as="sourcePoint" />
+            <mxPoint x="152.5" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-29" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QhgG2MZpiGPSlkuTFGe9-1" source="QhgG2MZpiGPSlkuTFGe9-27" target="QhgG2MZpiGPSlkuTFGe9-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="649.1" as="sourcePoint" />
-            <mxPoint x="330" y="530" as="targetPoint" />
+            <mxPoint x="412.5" y="539.1" as="sourcePoint" />
+            <mxPoint x="332.5" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QhgG2MZpiGPSlkuTFGe9-30" value="The server processes and serves the second request for the GET /orders/{order_id} endpoint after 2.5 seconds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
-          <mxGeometry x="105" y="400" width="250" height="50" as="geometry" />
+        <mxCell id="QhgG2MZpiGPSlkuTFGe9-30" value="While the server waits for the database to load data for the first request, it processes and serves the second request for the GET /orders/{order_id} endpoint after 0.5 seconds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
+          <mxGeometry x="107.5" y="290" width="272.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QhgG2MZpiGPSlkuTFGe9-31" value="It takes the database 2 seconds to load the data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QhgG2MZpiGPSlkuTFGe9-1">
           <mxGeometry x="422.5" y="103" width="75" height="69.34" as="geometry" />
