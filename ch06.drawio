@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-21T08:20:16.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ro9FJbkjRtEmrtcC1iHl" version="14.2.5" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-01-21T08:23:14.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="OW7L4JF5w8Pmvuj0kKpO" version="14.2.5" type="github" pages="14">
   <diagram id="s5-NlCj1laCB3OtM3teV" name="6.1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1092,11 +1092,8 @@
         <mxCell id="i0YSMq17uFCAZCWyWUmk-19" value="Validation (with Pydantic)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i0YSMq17uFCAZCWyWUmk-1">
           <mxGeometry x="350" y="340" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i0YSMq17uFCAZCWyWUmk-20" value="&amp;nbsp; Marshalling" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="i0YSMq17uFCAZCWyWUmk-1">
+        <mxCell id="i0YSMq17uFCAZCWyWUmk-20" value="&amp;nbsp; Marshalling" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="i0YSMq17uFCAZCWyWUmk-1">
           <mxGeometry x="207.5" y="570" width="125" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="i0YSMq17uFCAZCWyWUmk-18" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json" vertex="1" parent="i0YSMq17uFCAZCWyWUmk-1">
-          <mxGeometry x="282.5" y="575" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i0YSMq17uFCAZCWyWUmk-21" value="API interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="i0YSMq17uFCAZCWyWUmk-1">
           <mxGeometry x="320" y="270" width="310" height="30" as="geometry" />
@@ -1135,6 +1132,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="682.5" y="730" as="sourcePoint" />
             <mxPoint x="732.5" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0YSMq17uFCAZCWyWUmk-32" value="Form successful &lt;br&gt;response&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="i0YSMq17uFCAZCWyWUmk-1">
+          <mxGeometry x="215" y="670" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i0YSMq17uFCAZCWyWUmk-18" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json" vertex="1" parent="i0YSMq17uFCAZCWyWUmk-1">
+          <mxGeometry x="255" y="710" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i0YSMq17uFCAZCWyWUmk-33" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i0YSMq17uFCAZCWyWUmk-1" source="i0YSMq17uFCAZCWyWUmk-20" target="i0YSMq17uFCAZCWyWUmk-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="800" as="sourcePoint" />
+            <mxPoint x="270" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
