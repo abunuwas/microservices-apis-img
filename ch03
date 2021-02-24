@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T09:18:00.731Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="iYmMET3p6TvdTqcILgBo" version="14.4.2" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-02-24T09:20:46.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="hGcVafrmLfNwwSNMEJnC" version="14.4.2" type="github" pages="15">
   <diagram id="SPfHcpYYUhe2oHMZ6YBy" name="3.1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1210,7 +1210,7 @@
             <mxPoint x="-345" y="154" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EZM4gj4Dpeq8RCWSSU43-15" value="&lt;font style=&quot;font-size: 12px&quot;&gt;If payment is successful, the orders subdomain schedules the order with the kitchen service.&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="EZM4gj4Dpeq8RCWSSU43-1" vertex="1">
+        <mxCell id="EZM4gj4Dpeq8RCWSSU43-15" value="&lt;font style=&quot;font-size: 12px&quot;&gt;If payment is successful, the orders subdomain schedules the order with the kitchen subdomain&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="EZM4gj4Dpeq8RCWSSU43-1" vertex="1">
           <mxGeometry x="-510" y="440" width="213.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EZM4gj4Dpeq8RCWSSU43-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Products subdomain&lt;/font&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="EZM4gj4Dpeq8RCWSSU43-1" vertex="1">
