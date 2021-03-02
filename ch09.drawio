@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T09:15:35.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="JQXZ5NzqAnlI4D--4TbA" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-02T09:19:40.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="dHeS5Gp2mU55RASgjjcZ" version="14.4.3" type="github" pages="3">
   <diagram id="HfrVOxK7C6Xg18cuSGEn" name="9.1">
-    <mxGraphModel dx="1141" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0bJAWcxfFGvjO1gVau_i-0" />
         <mxCell id="0bJAWcxfFGvjO1gVau_i-1" parent="0bJAWcxfFGvjO1gVau_i-0" />
@@ -134,6 +134,56 @@
             <Array as="points">
               <mxPoint x="670" y="600" />
               <mxPoint x="161" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zhucuEAzlXZaeuKlUt9P" name="9.2">
+    <mxGraphModel dx="951" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="YGz8yNY2G_tWDNrCEadQ-0" />
+        <mxCell id="YGz8yNY2G_tWDNrCEadQ-1" parent="YGz8yNY2G_tWDNrCEadQ-0" />
+        <mxCell id="QsnBVLkhzvyV34kDNpGs-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="YGz8yNY2G_tWDNrCEadQ-1">
+          <mxGeometry x="520" y="120" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QsnBVLkhzvyV34kDNpGs-1" value="Products API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YGz8yNY2G_tWDNrCEadQ-1">
+          <mxGeometry x="520" y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QsnBVLkhzvyV34kDNpGs-2" value="/products" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="YGz8yNY2G_tWDNrCEadQ-1">
+          <mxGeometry x="550" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QsnBVLkhzvyV34kDNpGs-4" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="YGz8yNY2G_tWDNrCEadQ-1">
+          <mxGeometry x="90" y="200" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="QsnBVLkhzvyV34kDNpGs-5" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YGz8yNY2G_tWDNrCEadQ-1" source="QsnBVLkhzvyV34kDNpGs-4" target="QsnBVLkhzvyV34kDNpGs-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="230" as="sourcePoint" />
+            <mxPoint x="270" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="230" />
+              <mxPoint x="170" y="110" />
+              <mxPoint x="500" y="110" />
+              <mxPoint x="500" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QsnBVLkhzvyV34kDNpGs-6" value="1) Retrieve details of product Mocha" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YGz8yNY2G_tWDNrCEadQ-1">
+          <mxGeometry x="230" y="80" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QsnBVLkhzvyV34kDNpGs-7" value="Product" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="YGz8yNY2G_tWDNrCEadQ-1">
+          <mxGeometry x="235" y="130" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QsnBVLkhzvyV34kDNpGs-8" value="ID: 1&lt;br&gt;name: Mocha&lt;br&gt;price: $10&lt;br&gt;ingredients: [&lt;br&gt;&amp;nbsp; &amp;nbsp; {id: 1, name: milk},&lt;br&gt;&amp;nbsp; &amp;nbsp; {id: 2, name: coffee},&lt;br&gt;&amp;nbsp; &amp;nbsp; {id: 3, name: chocolate},&lt;br&gt;&amp;nbsp; &amp;nbsp; {id: 4, name: sugar}&lt;br&gt;]" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" vertex="1" parent="QsnBVLkhzvyV34kDNpGs-7">
+          <mxGeometry y="29" width="170" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="QsnBVLkhzvyV34kDNpGs-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YGz8yNY2G_tWDNrCEadQ-1" source="QsnBVLkhzvyV34kDNpGs-2" target="QsnBVLkhzvyV34kDNpGs-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
