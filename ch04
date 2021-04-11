@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T16:48:10.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="ONCmnw5opTvLn3vSzAqQ" version="14.5.10" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-04-11T16:48:35.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="-Z131F1umz0FiwF4lQCy" version="14.5.10" type="github" pages="19">
   <diagram id="YXrX5rLn1IKVLMaaHQiq" name="4.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1262,6 +1262,54 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="360" as="sourcePoint" />
             <mxPoint x="670" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OSh7narIqVMIlFmq2sh7" name="4.19">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-0" />
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-1" parent="MKSKgePG_7XzRnP8OZkK-0" />
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-2" value="API consumer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="40" y="135" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1" source="MKSKgePG_7XzRnP8OZkK-2" target="MKSKgePG_7XzRnP8OZkK-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="sourcePoint" />
+            <mxPoint x="290" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-4" value="&lt;font style=&quot;font-size: 20px&quot;&gt;GET /orders&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="150" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1" source="MKSKgePG_7XzRnP8OZkK-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="835" y="340" as="sourcePoint" />
+            <mxPoint x="50" y="215" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="290" />
+              <mxPoint x="50" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Status Code: 503 (Service Unavailable)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="60" y="240" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-7" value="&lt;font style=&quot;font-size: 20px&quot;&gt;/orders&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="630" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-8" value="&lt;font style=&quot;font-size: 16px&quot;&gt;API server is overloaded and can&#39;t take on more requests&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="583.13" y="60" width="233.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-9" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Proxy server&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="380" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MKSKgePG_7XzRnP8OZkK-10" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1" source="MKSKgePG_7XzRnP8OZkK-9" target="MKSKgePG_7XzRnP8OZkK-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
