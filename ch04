@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T16:47:26.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="6tLn0rv0hUp0R9b55SVZ" version="14.5.10" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-04-11T16:47:55.006Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="QerxtW_ReHRrJ9Zc_-k5" version="14.5.10" type="github" pages="17">
   <diagram id="YXrX5rLn1IKVLMaaHQiq" name="4.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1179,6 +1179,45 @@
               <mxPoint x="86" y="185" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8MADeiEb76DGzpc5xetK" name="4.17">
+    <mxGraphModel dx="2276" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="kvSGaSK4yrXWrMyaHkya-0" />
+        <mxCell id="kvSGaSK4yrXWrMyaHkya-1" parent="kvSGaSK4yrXWrMyaHkya-0" />
+        <mxCell id="kvSGaSK4yrXWrMyaHkya-2" value="API consumer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;" vertex="1" parent="kvSGaSK4yrXWrMyaHkya-1">
+          <mxGeometry x="-130" y="405" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvSGaSK4yrXWrMyaHkya-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.008;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kvSGaSK4yrXWrMyaHkya-1" source="kvSGaSK4yrXWrMyaHkya-2" target="kvSGaSK4yrXWrMyaHkya-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="470" as="sourcePoint" />
+            <mxPoint x="120" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvSGaSK4yrXWrMyaHkya-4" value="&lt;font style=&quot;font-size: 20px&quot;&gt;DELETE /orders/71a620e8-20d3-47e5-b077-35a3060c865e&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="kvSGaSK4yrXWrMyaHkya-1">
+          <mxGeometry x="-60" y="370" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvSGaSK4yrXWrMyaHkya-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="kvSGaSK4yrXWrMyaHkya-1" source="kvSGaSK4yrXWrMyaHkya-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="610" as="sourcePoint" />
+            <mxPoint x="-120" y="485" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="520" />
+              <mxPoint x="-120" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvSGaSK4yrXWrMyaHkya-6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Status Code: 403 (Forbidden)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kvSGaSK4yrXWrMyaHkya-1">
+          <mxGeometry x="55" y="465" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kvSGaSK4yrXWrMyaHkya-7" value="&lt;font style=&quot;font-size: 20px&quot;&gt;/orders/{order_id}&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="kvSGaSK4yrXWrMyaHkya-1">
+          <mxGeometry x="560" y="395" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kvSGaSK4yrXWrMyaHkya-8" value="&lt;font style=&quot;font-size: 16px&quot;&gt;User is not allowed to use the DELETE method&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kvSGaSK4yrXWrMyaHkya-1">
+          <mxGeometry x="-60" y="310" width="590" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
