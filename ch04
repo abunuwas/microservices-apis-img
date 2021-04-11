@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T16:48:35.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="-Z131F1umz0FiwF4lQCy" version="14.5.10" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-04-11T16:49:03.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="geB1262NLVTIiuKTn-HP" version="14.5.10" type="github" pages="20">
   <diagram id="YXrX5rLn1IKVLMaaHQiq" name="4.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1310,6 +1310,60 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="310" as="sourcePoint" />
             <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vzbZm1aRw1mpOJ5B_o-f" name="4.20">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-0" />
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-1" parent="mVTe3K10ltE_CNCVVsEl-0" />
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-2" value="API consumer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;" vertex="1" parent="mVTe3K10ltE_CNCVVsEl-1">
+          <mxGeometry x="40" y="135" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="mVTe3K10ltE_CNCVVsEl-1" source="mVTe3K10ltE_CNCVVsEl-2" target="mVTe3K10ltE_CNCVVsEl-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="sourcePoint" />
+            <mxPoint x="290" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-4" value="&lt;font style=&quot;font-size: 20px&quot;&gt;GET /orders&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="mVTe3K10ltE_CNCVVsEl-1">
+          <mxGeometry x="150" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mVTe3K10ltE_CNCVVsEl-1" source="mVTe3K10ltE_CNCVVsEl-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="835" y="340" as="sourcePoint" />
+            <mxPoint x="50" y="215" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="290" />
+              <mxPoint x="50" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Status Code: 504 (Gateway Timeout)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mVTe3K10ltE_CNCVVsEl-1">
+          <mxGeometry x="50" y="240" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-7" value="&lt;font style=&quot;font-size: 20px&quot;&gt;/orders&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="mVTe3K10ltE_CNCVVsEl-1">
+          <mxGeometry x="630" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-8" value="&lt;font style=&quot;font-size: 16px&quot;&gt;API Server is slow responding&amp;nbsp; the request&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mVTe3K10ltE_CNCVVsEl-1">
+          <mxGeometry x="598.13" y="60" width="203.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-9" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Proxy server&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="mVTe3K10ltE_CNCVVsEl-1">
+          <mxGeometry x="380" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-10" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="mVTe3K10ltE_CNCVVsEl-1" target="mVTe3K10ltE_CNCVVsEl-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="522" y="148" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mVTe3K10ltE_CNCVVsEl-11" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="mVTe3K10ltE_CNCVVsEl-1" source="mVTe3K10ltE_CNCVVsEl-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="330" as="sourcePoint" />
+            <mxPoint x="580" y="183" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
