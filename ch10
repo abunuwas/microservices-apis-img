@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T17:57:46.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="p6tS79vFkF6949MQuhgT" version="14.5.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-02T18:06:17.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="g6kIgmvZKq3yCdcDC4Kg" version="14.5.10" type="github" pages="3">
   <diagram id="rQfnX1FY8qJNnSQpkwgN" name="9.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -124,6 +124,17 @@
               <mxPoint x="240" y="30" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T9Tb041fhhcdYu1qjFYs" name="sidebar">
+    <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="WEHUiRTDmcCyNLDcU37R-0" />
+        <mxCell id="WEHUiRTDmcCyNLDcU37R-1" parent="WEHUiRTDmcCyNLDcU37R-0" />
+        <mxCell id="WEHUiRTDmcCyNLDcU37R-4" value="&lt;font color=&quot;#000000&quot;&gt;def simple_resolver(obj, info)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC0000;" vertex="1" parent="WEHUiRTDmcCyNLDcU37R-1">
+          <mxGeometry x="100" y="290" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
