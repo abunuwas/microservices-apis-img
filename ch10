@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T17:47:27.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="q_mcEwZ_Tn9Mohsjeddk" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-02T17:47:52.685Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="tgi3WRrGiOetw98goQky" version="14.5.10" type="github">
   <diagram id="rQfnX1FY8qJNnSQpkwgN" name="9.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kbCovzaKoAN9wfYuubUj-3" value="make_executable_schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kbCovzaKoAN9wfYuubUj-3" value="make_executable_schema" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="360" y="270" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kbCovzaKoAN9wfYuubUj-4" value="GraphQL Schema&lt;br&gt;&lt;br&gt;products.graphql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kbCovzaKoAN9wfYuubUj-4" value="GraphQL Schema&lt;br&gt;&lt;br&gt;products.graphql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="460" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kbCovzaKoAN9wfYuubUj-5" value="Ariadne resolvers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kbCovzaKoAN9wfYuubUj-5" value="Ariadne resolvers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="460" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kbCovzaKoAN9wfYuubUj-6" value="GraphQL server&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kbCovzaKoAN9wfYuubUj-6" value="GraphQL server&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="130" y="230" width="180" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="kbCovzaKoAN9wfYuubUj-1" value="Executable schema&lt;br&gt;(data validation)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kbCovzaKoAN9wfYuubUj-1" value="Executable schema&lt;br&gt;(data validation)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kbCovzaKoAN9wfYuubUj-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kbCovzaKoAN9wfYuubUj-4">
@@ -48,7 +48,7 @@
         <mxCell id="kbCovzaKoAN9wfYuubUj-10" value="user" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
           <mxGeometry x="197.2" y="510" width="45.6" height="61.800000000000004" as="geometry" />
         </mxCell>
-        <mxCell id="kbCovzaKoAN9wfYuubUj-11" value="HTTP layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kbCovzaKoAN9wfYuubUj-11" value="HTTP layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="160" y="380" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kbCovzaKoAN9wfYuubUj-13" value="" style="endArrow=classic;html=1;exitX=0.513;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kbCovzaKoAN9wfYuubUj-10" target="kbCovzaKoAN9wfYuubUj-11">
