@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T18:07:13.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="ByAXauql7ffAQoCmUyxD" version="14.5.10" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-02T18:08:09.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="aRtpPv0aFcvl85Ulr4nW" version="14.5.10" type="github" pages="3">
   <diagram id="rQfnX1FY8qJNnSQpkwgN" name="9.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -133,11 +133,11 @@
       <root>
         <mxCell id="WEHUiRTDmcCyNLDcU37R-0" />
         <mxCell id="WEHUiRTDmcCyNLDcU37R-1" parent="WEHUiRTDmcCyNLDcU37R-0" />
-        <mxCell id="WEHUiRTDmcCyNLDcU37R-4" value="&lt;font color=&quot;#000000&quot;&gt;def simple_resolver(obj, info)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC0000;" vertex="1" parent="WEHUiRTDmcCyNLDcU37R-1">
-          <mxGeometry x="100" y="290" width="230" height="20" as="geometry" />
+        <mxCell id="WEHUiRTDmcCyNLDcU37R-4" value="&lt;font color=&quot;#000000&quot;&gt;def simple_resolver(obj, info):&lt;br&gt;&amp;nbsp; &amp;nbsp; pass&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC0000;" vertex="1" parent="WEHUiRTDmcCyNLDcU37R-1">
+          <mxGeometry x="130" y="290" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WEHUiRTDmcCyNLDcU37R-5" value="&lt;font color=&quot;#000000&quot;&gt;def simple_resolver(obj, info)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC0000;" vertex="1" parent="WEHUiRTDmcCyNLDcU37R-1">
-          <mxGeometry x="440" y="290" width="230" height="20" as="geometry" />
+        <mxCell id="WEHUiRTDmcCyNLDcU37R-5" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;def simple_resolver(obj, info):&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; pass&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC0000;" vertex="1" parent="WEHUiRTDmcCyNLDcU37R-1">
+          <mxGeometry x="465" y="290" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WEHUiRTDmcCyNLDcU37R-6" value="&lt;font color=&quot;#000000&quot;&gt;Parent resolver: None&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC0000;" vertex="1" parent="WEHUiRTDmcCyNLDcU37R-1">
           <mxGeometry x="137.5" y="170" width="155" height="60" as="geometry" />
