@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-03T21:18:54.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="ZWW30I9X4fUnZQuPHV-U" version="14.5.10" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-05-03T21:21:41.237Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="q-jVMWTDC3YnGidh6Iy3" version="14.5.10" type="github" pages="7">
   <diagram id="Bjh8oeINxCOwP5NR763B" name="9.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -388,25 +388,66 @@
         <mxCell id="C6fbQDmXq_dZO0mbm6Bm-0" />
         <mxCell id="C6fbQDmXq_dZO0mbm6Bm-1" parent="C6fbQDmXq_dZO0mbm6Bm-0" />
         <mxCell id="Mre4Q-tx8DDIAm50FPkc-1" value="&amp;nbsp; type &lt;b&gt;Beverage&lt;/b&gt; implements &lt;b&gt;ProductInterface&lt;/b&gt; {&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;align=left;strokeColor=#d6b656;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
-          <mxGeometry x="90" y="210" width="270" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="Mre4Q-tx8DDIAm50FPkc-2" value="&amp;nbsp; type Cake implements ProductInterface {&lt;br&gt;&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; price: Float&lt;br&gt;&amp;nbsp; &amp;nbsp; size: Sizes&lt;br&gt;&amp;nbsp; &amp;nbsp; ingredients: [IngredientRecipe!]&lt;br&gt;&amp;nbsp; &amp;nbsp; available: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasFilling: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasNutsToppingOption: Boolean!&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;align=left;strokeColor=#d6b656;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
-          <mxGeometry x="500" y="210" width="240" height="180" as="geometry" />
+          <mxGeometry x="120" y="200" width="270" height="290" as="geometry" />
         </mxCell>
         <mxCell id="Mre4Q-tx8DDIAm50FPkc-5" value="union Product = Beverage | Cake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
-          <mxGeometry x="250" y="500" width="220" height="30" as="geometry" />
+          <mxGeometry x="315" y="535" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mre4Q-tx8DDIAm50FPkc-7" value="&amp;nbsp; interface ProductInterface {&lt;br&gt;&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; price: Float&lt;br&gt;&amp;nbsp; &amp;nbsp; size: Sizes&lt;br&gt;&amp;nbsp; &amp;nbsp; ingredients: [IngredientRecipe!]&lt;br&gt;&amp;nbsp; &amp;nbsp; available: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;align=left;strokeColor=#6c8ebf;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
           <mxGeometry x="320" y="10" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Mre4Q-tx8DDIAm50FPkc-8" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;&amp;nbsp; &amp;nbsp; hasCreamOnTopOption: Boolean!&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;&amp;nbsp; &amp;nbsp; hasServeOnIceOption: Boolean!&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;align=left;strokeColor=#b85450;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
-          <mxGeometry x="100" y="410" width="210" height="60" as="geometry" />
+          <mxGeometry x="130" y="400" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mre4Q-tx8DDIAm50FPkc-9" value="&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; price: Float&lt;br&gt;&amp;nbsp; &amp;nbsp; size: Sizes&lt;br&gt;&amp;nbsp; &amp;nbsp; ingredients: [IngredientRecipe!]&lt;br&gt;&amp;nbsp; &amp;nbsp; available: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;align=left;strokeColor=#6c8ebf;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
-          <mxGeometry x="100" y="242.5" width="210" height="115" as="geometry" />
+          <mxGeometry x="130" y="232.5" width="210" height="115" as="geometry" />
         </mxCell>
         <mxCell id="Mre4Q-tx8DDIAm50FPkc-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/add-128.png;fontColor=#000000;fillColor=#ffffff;align=left;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
-          <mxGeometry x="190" y="370" width="30" height="30" as="geometry" />
+          <mxGeometry x="220" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mre4Q-tx8DDIAm50FPkc-12" value="&amp;nbsp; type &lt;b&gt;Cake&lt;/b&gt; implements &lt;b&gt;ProductInterface&lt;/b&gt; {&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;align=left;strokeColor=#d6b656;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
+          <mxGeometry x="440" y="200" width="270" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Mre4Q-tx8DDIAm50FPkc-13" value="&amp;nbsp; &amp;nbsp; hasFilling: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasNutsToppingOption: Boolean!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;align=left;strokeColor=#b85450;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
+          <mxGeometry x="450" y="400" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mre4Q-tx8DDIAm50FPkc-14" value="&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; price: Float&lt;br&gt;&amp;nbsp; &amp;nbsp; size: Sizes&lt;br&gt;&amp;nbsp; &amp;nbsp; ingredients: [IngredientRecipe!]&lt;br&gt;&amp;nbsp; &amp;nbsp; available: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;align=left;strokeColor=#6c8ebf;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
+          <mxGeometry x="450" y="232.5" width="210" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="Mre4Q-tx8DDIAm50FPkc-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/add-128.png;fontColor=#000000;fillColor=#ffffff;align=left;" vertex="1" parent="C6fbQDmXq_dZO0mbm6Bm-1">
+          <mxGeometry x="540" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mre4Q-tx8DDIAm50FPkc-16" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="C6fbQDmXq_dZO0mbm6Bm-1" source="Mre4Q-tx8DDIAm50FPkc-7" target="Mre4Q-tx8DDIAm50FPkc-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="120" as="sourcePoint" />
+            <mxPoint x="210" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="85" />
+              <mxPoint x="100" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mre4Q-tx8DDIAm50FPkc-17" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="C6fbQDmXq_dZO0mbm6Bm-1" source="Mre4Q-tx8DDIAm50FPkc-7" target="Mre4Q-tx8DDIAm50FPkc-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="140" as="sourcePoint" />
+            <mxPoint x="710" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="85" />
+              <mxPoint x="730" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mre4Q-tx8DDIAm50FPkc-18" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="C6fbQDmXq_dZO0mbm6Bm-1" source="Mre4Q-tx8DDIAm50FPkc-12" target="Mre4Q-tx8DDIAm50FPkc-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="570" as="sourcePoint" />
+            <mxPoint x="700" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mre4Q-tx8DDIAm50FPkc-19" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#000000;exitX=0.435;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="C6fbQDmXq_dZO0mbm6Bm-1" source="Mre4Q-tx8DDIAm50FPkc-1" target="Mre4Q-tx8DDIAm50FPkc-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="660" as="sourcePoint" />
+            <mxPoint x="340" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
