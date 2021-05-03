@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-03T20:52:05.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="KLZxJ42b8AqnGJS-iuD6" version="14.5.10" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-05-03T20:53:40.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="B2Dw7HMv1_2OyQ7N7SYZ" version="14.5.10" type="github" pages="6">
   <diagram id="Bjh8oeINxCOwP5NR763B" name="9.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -343,7 +343,7 @@
         <mxCell id="pBGzaoATOzWcv9JE0jMv-1" value="allProducts: [Product!]!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
           <mxGeometry x="210" y="250" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HroV5lx-C1_eiFRNF7ca-0" value="&amp;nbsp; type Ingredient {&lt;br&gt;&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; stock: Stock!&lt;br&gt;&amp;nbsp; &amp;nbsp; products: [Product!]!&lt;br&gt;&amp;nbsp; &amp;nbsp; supplier: Supplier&lt;br&gt;&amp;nbsp; &amp;nbsp; description: String&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;align=left;strokeColor=#82b366;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
+        <mxCell id="HroV5lx-C1_eiFRNF7ca-0" value="&amp;nbsp; type Ingredient {&lt;br&gt;&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; stock: Stock!&lt;br&gt;&amp;nbsp; &amp;nbsp; products: [Product!]!&lt;br&gt;&amp;nbsp; &amp;nbsp; supplier: Supplier&lt;br&gt;&amp;nbsp; &amp;nbsp; description: String&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;align=left;strokeColor=#d6b656;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
           <mxGeometry x="222.5" y="60" width="155" height="140" as="geometry" />
         </mxCell>
         <mxCell id="HroV5lx-C1_eiFRNF7ca-1" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1Q0N_gq5SHzyvQTObvw1-1" source="pBGzaoATOzWcv9JE0jMv-0" target="HroV5lx-C1_eiFRNF7ca-0">
@@ -352,22 +352,31 @@
             <mxPoint x="200" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HroV5lx-C1_eiFRNF7ca-2" value="&amp;nbsp; type Beverage implements ProductInterface {&lt;br&gt;&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; price: Float&lt;br&gt;&amp;nbsp; &amp;nbsp; size: Sizes&lt;br&gt;&amp;nbsp; &amp;nbsp; ingredients: [IngredientRecipe!]!&lt;br&gt;&amp;nbsp; &amp;nbsp; available: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasCreamOnTopOption: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasServeOnIceOption: Boolean!&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;align=left;strokeColor=#82b366;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
-          <mxGeometry x="40" y="320" width="260" height="180" as="geometry" />
+        <mxCell id="HroV5lx-C1_eiFRNF7ca-2" value="&amp;nbsp; type Beverage implements ProductInterface {&lt;br&gt;&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; price: Float&lt;br&gt;&amp;nbsp; &amp;nbsp; size: Sizes&lt;br&gt;&amp;nbsp; &amp;nbsp; ingredients: [IngredientRecipe!]!&lt;br&gt;&amp;nbsp; &amp;nbsp; available: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasCreamOnTopOption: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasServeOnIceOption: Boolean!&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;align=left;strokeColor=#d6b656;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
+          <mxGeometry x="40" y="390" width="260" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="HroV5lx-C1_eiFRNF7ca-3" value="&amp;nbsp; type Cake implements ProductInterface {&lt;br&gt;&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; price: Float&lt;br&gt;&amp;nbsp; &amp;nbsp; size: Sizes&lt;br&gt;&amp;nbsp; &amp;nbsp; ingredients: [IngredientRecipe!]&lt;br&gt;&amp;nbsp; &amp;nbsp; available: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasFilling: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasNutsToppingOption: Boolean!&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;align=left;strokeColor=#82b366;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
-          <mxGeometry x="320" y="320" width="240" height="180" as="geometry" />
+        <mxCell id="HroV5lx-C1_eiFRNF7ca-3" value="&amp;nbsp; type Cake implements ProductInterface {&lt;br&gt;&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; price: Float&lt;br&gt;&amp;nbsp; &amp;nbsp; size: Sizes&lt;br&gt;&amp;nbsp; &amp;nbsp; ingredients: [IngredientRecipe!]&lt;br&gt;&amp;nbsp; &amp;nbsp; available: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasFilling: Boolean!&lt;br&gt;&amp;nbsp; &amp;nbsp; hasNutsToppingOption: Boolean!&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;align=left;strokeColor=#d6b656;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
+          <mxGeometry x="320" y="390" width="240" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="HroV5lx-C1_eiFRNF7ca-4" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1Q0N_gq5SHzyvQTObvw1-1" source="pBGzaoATOzWcv9JE0jMv-1" target="HroV5lx-C1_eiFRNF7ca-2">
+        <mxCell id="HroV5lx-C1_eiFRNF7ca-4" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1Q0N_gq5SHzyvQTObvw1-1" source="OlX4FVMa0ztKucuKNzYA-0" target="HroV5lx-C1_eiFRNF7ca-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="250" as="sourcePoint" />
             <mxPoint x="140" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HroV5lx-C1_eiFRNF7ca-5" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1Q0N_gq5SHzyvQTObvw1-1" target="HroV5lx-C1_eiFRNF7ca-3">
+        <mxCell id="HroV5lx-C1_eiFRNF7ca-5" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1Q0N_gq5SHzyvQTObvw1-1" source="OlX4FVMa0ztKucuKNzYA-0" target="HroV5lx-C1_eiFRNF7ca-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="280" as="sourcePoint" />
             <mxPoint x="60" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OlX4FVMa0ztKucuKNzYA-0" value="union Product = Beverage | Cake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
+          <mxGeometry x="190" y="310" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OlX4FVMa0ztKucuKNzYA-1" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1Q0N_gq5SHzyvQTObvw1-1" source="pBGzaoATOzWcv9JE0jMv-1" target="OlX4FVMa0ztKucuKNzYA-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="300" as="sourcePoint" />
+            <mxPoint x="140" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
