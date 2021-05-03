@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-03T20:51:35.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="CWOW2QAD3OOKynTKc-yN" version="14.5.10" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-05-03T20:52:05.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="KLZxJ42b8AqnGJS-iuD6" version="14.5.10" type="github" pages="6">
   <diagram id="Bjh8oeINxCOwP5NR763B" name="9.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -340,7 +340,7 @@
         <mxCell id="pBGzaoATOzWcv9JE0jMv-0" value="allIngredients: [Ingredient!]!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
           <mxGeometry x="210" y="10" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pBGzaoATOzWcv9JE0jMv-1" value="allIngredients: [Product!]!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
+        <mxCell id="pBGzaoATOzWcv9JE0jMv-1" value="allProducts: [Product!]!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
           <mxGeometry x="210" y="250" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HroV5lx-C1_eiFRNF7ca-0" value="&amp;nbsp; type Ingredient {&lt;br&gt;&amp;nbsp; &amp;nbsp; id: ID!&lt;br&gt;&amp;nbsp; &amp;nbsp; name: String!&lt;br&gt;&amp;nbsp; &amp;nbsp; stock: Stock!&lt;br&gt;&amp;nbsp; &amp;nbsp; products: [Product!]!&lt;br&gt;&amp;nbsp; &amp;nbsp; supplier: Supplier&lt;br&gt;&amp;nbsp; &amp;nbsp; description: String&lt;br&gt;&amp;nbsp; &amp;nbsp; lastUpdated: Datetime!&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;align=left;strokeColor=#82b366;" vertex="1" parent="1Q0N_gq5SHzyvQTObvw1-1">
