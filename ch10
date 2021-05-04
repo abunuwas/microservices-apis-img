@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-04T10:00:06.097Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="u84awC01dIt8qFREhiWr" version="14.5.10" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-05-04T10:00:15.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="QU9-_W55ymdOtDcdgDsy" version="14.5.10" type="github" pages="13">
   <diagram id="Bjh8oeINxCOwP5NR763B" name="9.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -909,7 +909,7 @@
         <mxCell id="zjA1jDf9xhEqVxgb_vVI-25" value="GraphQL server" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="Iccv8vk6Zxv87DmUITi8-1">
           <mxGeometry x="380" y="-770" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zjA1jDf9xhEqVxgb_vVI-26" value="&lt;span style=&quot;text-align: left&quot;&gt;Validation and deserialization&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="Iccv8vk6Zxv87DmUITi8-1">
+        <mxCell id="zjA1jDf9xhEqVxgb_vVI-26" value="&lt;span style=&quot;text-align: left&quot;&gt;Serialization&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="Iccv8vk6Zxv87DmUITi8-1">
           <mxGeometry x="372" y="-680" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zjA1jDf9xhEqVxgb_vVI-29" value="&quot;name&quot;: &quot;Mocha&quot; -&amp;gt; &quot;Mocha&quot;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeWidth=1;align=left;strokeColor=none;fillColor=none;" vertex="1" parent="Iccv8vk6Zxv87DmUITi8-1">
