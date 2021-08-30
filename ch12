@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T16:18:09.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="hBxkWLcGrN5hkRD1xbsR" version="14.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-30T16:32:43.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="Bc70La-y7sztkR6IYzNX" version="14.9.6" type="github" pages="3">
   <diagram id="Rg72lAJUHB7CzN0WeJY6" name="12.1">
     <mxGraphModel dx="949" dy="611" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -257,6 +257,88 @@
         </mxCell>
         <mxCell id="VaPUr-b60QiK45pnZiZb-8" value="Server response" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="lzVwgPVSsXnHYVeW7f6p-1">
           <mxGeometry x="669" y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="G7Qh-1wi5uRmOiFhReY0" name="Page-3">
+    <mxGraphModel dx="791" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="7Jm8SOsXDRsApFwFhs8c-0" />
+        <mxCell id="7Jm8SOsXDRsApFwFhs8c-1" parent="7Jm8SOsXDRsApFwFhs8c-0" />
+        <mxCell id="glx96KpPEj_Y4ASkqAtl-0" value="POST /orders/23de3420-2e49-4a10-857c-328e1023fbdb/pay" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7Jm8SOsXDRsApFwFhs8c-1">
+          <mxGeometry x="310" y="230" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LLonfTV_o_7cFFRW544i-0" value="POST /orders/23de3420-2e49-4a10-857c-328e1023fbdb/cancel" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7Jm8SOsXDRsApFwFhs8c-1">
+          <mxGeometry x="310" y="430" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XaVoWBfZQPxUaPfma16s-0" value="before_cancel_task()" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7Jm8SOsXDRsApFwFhs8c-1">
+          <mxGeometry x="130" y="435" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XaVoWBfZQPxUaPfma16s-1" value="before_pay_task()" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7Jm8SOsXDRsApFwFhs8c-1">
+          <mxGeometry x="130" y="235" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hMC-CfJO-VmnvmHeDi-x-0" value="POST /orders&lt;br&gt;Body {}" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7Jm8SOsXDRsApFwFhs8c-1">
+          <mxGeometry x="150" y="320" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hMC-CfJO-VmnvmHeDi-x-1" value="API server" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;strokeColor=#FF0000;strokeWidth=2;fillColor=none;" vertex="1" parent="7Jm8SOsXDRsApFwFhs8c-1">
+          <mxGeometry x="580" y="320" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hMC-CfJO-VmnvmHeDi-x-2" value="" style="endArrow=classic;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="7Jm8SOsXDRsApFwFhs8c-1" source="hMC-CfJO-VmnvmHeDi-x-0" target="hMC-CfJO-VmnvmHeDi-x-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="460" as="sourcePoint" />
+            <mxPoint x="370" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMC-CfJO-VmnvmHeDi-x-3" value="{&lt;br&gt;&amp;nbsp; &quot;id&quot;: &quot;23de3420-2e49-4a10-857c-328e1023fbdb&quot;,&lt;br&gt;&amp;nbsp; ...&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7Jm8SOsXDRsApFwFhs8c-1">
+          <mxGeometry x="250" y="360" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hMC-CfJO-VmnvmHeDi-x-4" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="7Jm8SOsXDRsApFwFhs8c-1" source="hMC-CfJO-VmnvmHeDi-x-1" target="hMC-CfJO-VmnvmHeDi-x-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="460" as="sourcePoint" />
+            <mxPoint x="700" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="345" />
+              <mxPoint x="640" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMC-CfJO-VmnvmHeDi-x-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;strokeWidth=2;fillColor=none;align=left;" vertex="1" parent="7Jm8SOsXDRsApFwFhs8c-1">
+          <mxGeometry x="250" y="380" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMC-CfJO-VmnvmHeDi-x-9" value="" style="endArrow=classic;html=1;exitX=0.428;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.396;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="7Jm8SOsXDRsApFwFhs8c-1" source="XaVoWBfZQPxUaPfma16s-1" target="hMC-CfJO-VmnvmHeDi-x-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="560" as="sourcePoint" />
+            <mxPoint x="210" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMC-CfJO-VmnvmHeDi-x-10" value="" style="endArrow=classic;html=1;entryX=0.389;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="7Jm8SOsXDRsApFwFhs8c-1" target="hMC-CfJO-VmnvmHeDi-x-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="185" y="434" as="sourcePoint" />
+            <mxPoint x="240" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMC-CfJO-VmnvmHeDi-x-11" value="" style="endArrow=classic;html=1;entryX=0.654;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.408;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" edge="1" parent="7Jm8SOsXDRsApFwFhs8c-1" source="hMC-CfJO-VmnvmHeDi-x-5" target="glx96KpPEj_Y4ASkqAtl-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="430" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="364" y="360" />
+              <mxPoint x="532" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMC-CfJO-VmnvmHeDi-x-12" value="" style="endArrow=classic;html=1;exitX=0.435;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" edge="1" parent="7Jm8SOsXDRsApFwFhs8c-1" source="hMC-CfJO-VmnvmHeDi-x-5" target="LLonfTV_o_7cFFRW544i-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="620" as="sourcePoint" />
+            <mxPoint x="330" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wG_u3yzdwN6349GfwOVR-0" value="1. Before executing the test, the before_pay_task() and the before_cancel_task() hooks use the POST /orders endpoint to create a new resource for use during their tests" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;spacingLeft=9;" vertex="1" parent="7Jm8SOsXDRsApFwFhs8c-1">
+          <mxGeometry x="50" y="160" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wG_u3yzdwN6349GfwOVR-1" value="2. Once the resource is created, the hooks use the ID from the response payload to form the resource URL" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;spacingLeft=9;" vertex="1" parent="7Jm8SOsXDRsApFwFhs8c-1">
+          <mxGeometry x="250" y="270" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
