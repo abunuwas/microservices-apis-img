@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T22:28:45.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="jE5BK5EYpaLGutfI4fON" version="14.9.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-08-30T23:11:39.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="MFci9DUQZKQYmGj2qCpw" version="14.9.6" type="github" pages="10">
   <diagram id="Rg72lAJUHB7CzN0WeJY6" name="12.1">
     <mxGraphModel dx="949" dy="611" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -821,6 +821,64 @@
             <mxPoint x="350" y="600" as="targetPoint" />
             <Array as="points">
               <mxPoint x="383" y="461" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MoksH4Hweb5mFVUOcRJJ" name="12.10">
+    <mxGraphModel dx="791" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="lANJBWBrU6FXh2lH52zF-0" />
+        <mxCell id="lANJBWBrU6FXh2lH52zF-1" parent="lANJBWBrU6FXh2lH52zF-0" />
+        <mxCell id="lANJBWBrU6FXh2lH52zF-2" value="&lt;div&gt;strategy = (&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;" style="text;html=1;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;spacingLeft=11;fontColor=#333333;" vertex="1" parent="lANJBWBrU6FXh2lH52zF-1">
+          <mxGeometry x="60" y="50" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lANJBWBrU6FXh2lH52zF-3" value="&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;queries.subset_of_fields({&#39;addIngredient&#39;: add_ingredient_mutation})&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="lANJBWBrU6FXh2lH52zF-1">
+          <mxGeometry x="60" y="90" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lANJBWBrU6FXh2lH52zF-4" value="&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; .flatmap(lambda field: queries.lists_of_field_nodes(context, field))&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="lANJBWBrU6FXh2lH52zF-1">
+          <mxGeometry x="60" y="120" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lANJBWBrU6FXh2lH52zF-5" value="&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; .map(make_query_document).map(graphql.print_ast)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="lANJBWBrU6FXh2lH52zF-1">
+          <mxGeometry x="60" y="150" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lANJBWBrU6FXh2lH52zF-6" value="Generates a selection set for the addIngredient mutation" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=9;" vertex="1" parent="lANJBWBrU6FXh2lH52zF-1">
+          <mxGeometry x="530" y="30" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lANJBWBrU6FXh2lH52zF-7" value="" style="endArrow=classic;html=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;entryX=0.528;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lANJBWBrU6FXh2lH52zF-1" source="lANJBWBrU6FXh2lH52zF-3" target="lANJBWBrU6FXh2lH52zF-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="300" as="sourcePoint" />
+            <mxPoint x="620" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="625" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lANJBWBrU6FXh2lH52zF-8" value="Resolves the selected fields within the API schema" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=9;" vertex="1" parent="lANJBWBrU6FXh2lH52zF-1">
+          <mxGeometry x="650" y="90" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lANJBWBrU6FXh2lH52zF-9" value="" style="endArrow=classic;html=1;strokeColor=#d6b656;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;" edge="1" parent="lANJBWBrU6FXh2lH52zF-1" source="lANJBWBrU6FXh2lH52zF-4" target="lANJBWBrU6FXh2lH52zF-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="250" as="sourcePoint" />
+            <mxPoint x="640" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="135" />
+              <mxPoint x="530" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lANJBWBrU6FXh2lH52zF-10" value="Generates the query document (using make_query_document()) and renders it as a string (using print_ast())" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=9;" vertex="1" parent="lANJBWBrU6FXh2lH52zF-1">
+          <mxGeometry x="560" y="160" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lANJBWBrU6FXh2lH52zF-11" value="" style="endArrow=classic;html=1;strokeColor=#b85450;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;" edge="1" parent="lANJBWBrU6FXh2lH52zF-1" source="lANJBWBrU6FXh2lH52zF-5" target="lANJBWBrU6FXh2lH52zF-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="165" />
+              <mxPoint x="500" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
