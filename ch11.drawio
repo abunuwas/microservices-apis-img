@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T22:55:47.329Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="00fevfUx4geJKJuiBWwd" version="15.8.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-11-29T22:56:28.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="fNo1JiiXaxzMHrUYxVaX" version="15.8.6" type="github" pages="7">
   <diagram id="nx3MoM29EwyBYq0CVW7p" name="11.1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -220,7 +220,7 @@
         <mxCell id="qh5aECh-PolztkrS4XIM-23" value="Facebook" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xbB9IlnCy7Dv5UHybaQ1-1">
           <mxGeometry x="400" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qh5aECh-PolztkrS4XIM-32" value="LinkedIn serves a single page application to Susan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xbB9IlnCy7Dv5UHybaQ1-1">
+        <mxCell id="qh5aECh-PolztkrS4XIM-32" value="LinkedIn serves a Single Page Application to Susan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xbB9IlnCy7Dv5UHybaQ1-1">
           <mxGeometry x="375" y="120" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qh5aECh-PolztkrS4XIM-33" value="The Single Page Application requests Facebook access to Susan&#39;s data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xbB9IlnCy7Dv5UHybaQ1-1">
