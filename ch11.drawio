@@ -1,4 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T23:06:11.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="IrrEug9aiFLAuFFzkTIC" version="15.8.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-29T22:12:53.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="jYTX2MYVmB3PbIc63iFB" version="15.8.6" type="github" pages="5">
+  <diagram id="nx3MoM29EwyBYq0CVW7p" name="11.1">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="-evExwloaNkShPnk9kdk-0" />
+        <mxCell id="-evExwloaNkShPnk9kdk-1" parent="-evExwloaNkShPnk9kdk-0" />
+        <mxCell id="-evExwloaNkShPnk9kdk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-evExwloaNkShPnk9kdk-1" source="-evExwloaNkShPnk9kdk-2" target="-evExwloaNkShPnk9kdk-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-2" value="Susan" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="160" y="120" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-evExwloaNkShPnk9kdk-1" source="-evExwloaNkShPnk9kdk-3" target="-evExwloaNkShPnk9kdk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="-evExwloaNkShPnk9kdk-1" source="-evExwloaNkShPnk9kdk-3" target="-evExwloaNkShPnk9kdk-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-3" value="Facebook" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="350" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.contacts;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="490" y="320" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.contacts;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="490" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-7" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.contacts;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="490" y="380" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-8" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.contacts;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="490" y="360" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.contacts;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="490" y="400" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="-evExwloaNkShPnk9kdk-1" source="-evExwloaNkShPnk9kdk-16" target="-evExwloaNkShPnk9kdk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-16" value="LinkedIn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="350" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-24" value="Susan wants to import her Facebook list of contacts into her LinkedIn account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="160" y="60" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-27" value="LinkedIn asks Facebook for access to Susan&#39;s contacts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="445" y="210" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-29" value="Facebook asks Susan to confirm her identity and that she wants to grant LinkedIn access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="120" y="390" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-32" value="Facebook issues a token that LinkedIn can use to access Susan&#39;s contacts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="260" y="210" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-33" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="190" y="110" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-34" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="450" y="180" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-35" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="180" y="340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-evExwloaNkShPnk9kdk-36" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="-evExwloaNkShPnk9kdk-1">
+          <mxGeometry x="340" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="yEVMj4Wjj1uTydZpHvNL" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
