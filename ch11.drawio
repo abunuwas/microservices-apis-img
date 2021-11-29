@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T22:26:52.375Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="8kKS1cnuT0g4pcTp1yZo" version="15.8.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-29T22:46:22.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="AgeTIVdH9uwhwXKK_9iz" version="15.8.6" type="github" pages="6">
   <diagram id="nx3MoM29EwyBYq0CVW7p" name="11.1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -110,24 +110,23 @@
         <mxCell id="sSWuBdSrLklBlBba6gmI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sSWuBdSrLklBlBba6gmI-1" source="sSWuBdSrLklBlBba6gmI-3" target="sSWuBdSrLklBlBba6gmI-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="sSWuBdSrLklBlBba6gmI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sSWuBdSrLklBlBba6gmI-1" source="sSWuBdSrLklBlBba6gmI-3" target="sSWuBdSrLklBlBba6gmI-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSWuBdSrLklBlBba6gmI-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="sSWuBdSrLklBlBba6gmI-1" source="sSWuBdSrLklBlBba6gmI-3" target="sSWuBdSrLklBlBba6gmI-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="270" />
+              <mxPoint x="700" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sSWuBdSrLklBlBba6gmI-3" value="LinkedIn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
           <mxGeometry x="330" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sSWuBdSrLklBlBba6gmI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="sSWuBdSrLklBlBba6gmI-1" source="sSWuBdSrLklBlBba6gmI-5" target="sSWuBdSrLklBlBba6gmI-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="620" y="290" />
-              <mxPoint x="150" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sSWuBdSrLklBlBba6gmI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="sSWuBdSrLklBlBba6gmI-1" source="sSWuBdSrLklBlBba6gmI-5" target="sSWuBdSrLklBlBba6gmI-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="710" y="340" />
-              <mxPoint x="390" y="340" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="sSWuBdSrLklBlBba6gmI-5" value="Facebook" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
           <mxGeometry x="640" y="190" width="120" height="60" as="geometry" />
@@ -135,26 +134,45 @@
         <mxCell id="sSWuBdSrLklBlBba6gmI-15" value="Susan wants to grant LinkedIn access to her data in Facebook" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
           <mxGeometry x="180" y="180" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sSWuBdSrLklBlBba6gmI-16" value="LinkedIn asks Facebook for access to Susan&#39;s data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
-          <mxGeometry x="470" y="180" width="150" height="30" as="geometry" />
+        <mxCell id="sSWuBdSrLklBlBba6gmI-16" value="LinkedIn exchanges a secret with Facebook to produce a signing URL where Susan can prove her identity and grant access to LinkedIn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
+          <mxGeometry x="466.25" y="150" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sSWuBdSrLklBlBba6gmI-17" value="Facebook produces a signing URL where Susan can prove her identity and grant access to LinkedIn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
-          <mxGeometry x="160" y="310" width="200" height="30" as="geometry" />
+        <mxCell id="sSWuBdSrLklBlBba6gmI-17" value="LinkedIn serves the signing URL to Susan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
+          <mxGeometry x="170" y="340" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sSWuBdSrLklBlBba6gmI-18" value="Facebook issues a code that LinkedIn can exchange for a one-time access token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
-          <mxGeometry x="450" y="355" width="192.5" height="30" as="geometry" />
+        <mxCell id="sSWuBdSrLklBlBba6gmI-18" value="Upon Susan&#39;s successful login, Facebook issues a code that LinkedIn can exchange for a one-time access token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
+          <mxGeometry x="626.25" y="305" width="192.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sSWuBdSrLklBlBba6gmI-19" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
           <mxGeometry x="150" y="180" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sSWuBdSrLklBlBba6gmI-20" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
-          <mxGeometry x="500" y="150" width="20" height="20" as="geometry" />
+          <mxGeometry x="440" y="150" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sSWuBdSrLklBlBba6gmI-21" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
-          <mxGeometry x="130" y="315" width="20" height="20" as="geometry" />
+        <mxCell id="sSWuBdSrLklBlBba6gmI-21" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;direction=south;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
+          <mxGeometry x="190" y="305" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sSWuBdSrLklBlBba6gmI-22" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
-          <mxGeometry x="460" y="380" width="20" height="20" as="geometry" />
+          <mxGeometry x="415" y="300" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sSWuBdSrLklBlBba6gmI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sSWuBdSrLklBlBba6gmI-1" source="sSWuBdSrLklBlBba6gmI-34" target="sSWuBdSrLklBlBba6gmI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sSWuBdSrLklBlBba6gmI-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="sSWuBdSrLklBlBba6gmI-1" source="sSWuBdSrLklBlBba6gmI-34" target="sSWuBdSrLklBlBba6gmI-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSWuBdSrLklBlBba6gmI-34" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
+          <mxGeometry x="230" y="271" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sSWuBdSrLklBlBba6gmI-41" value="Upon Susan&#39;s successful login, the signing page produces a one-time code that LinkedIn can exchange for an access token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
+          <mxGeometry x="370" y="320" width="120" height="118.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sSWuBdSrLklBlBba6gmI-45" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
+          <mxGeometry x="606" y="300" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
