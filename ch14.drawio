@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T11:20:48.462Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="pTE1h-HbgGazGXhHL9UL" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T11:49:14.287Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="lYye9hgRlI80kTnnJS3I" version="16.0.3" type="github" pages="2">
   <diagram id="0C1uWPmxnuECX0CIdEsk" name="14.1">
     <mxGraphModel dx="951" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -153,6 +153,59 @@
         </mxCell>
         <mxCell id="Ml90VJhIjHiY6DNN_qWz-58" value="The load balancer accepts incoming requests from the Internet and forwards them to a service using Ingress rules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#9673A6;" vertex="1" parent="1">
           <mxGeometry x="612" y="520" width="188" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uKX9Fitpfgt_qooDrZoe" name="14.2">
+    <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="T0Cyi-2OSDRXDh4SfshX-0" />
+        <mxCell id="T0Cyi-2OSDRXDh4SfshX-1" parent="T0Cyi-2OSDRXDh4SfshX-0" />
+        <mxCell id="T0Cyi-2OSDRXDh4SfshX-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#f9f7ed;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="125" width="375" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="T0Cyi-2OSDRXDh4SfshX-3" value="&lt;font&gt;Public Network 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="135" y="40" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T0Cyi-2OSDRXDh4SfshX-4" value="Public Network 2" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="135" y="98" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T0Cyi-2OSDRXDh4SfshX-5" value="Public Network 3" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="135" y="160" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T0Cyi-2OSDRXDh4SfshX-6" value="Private Network 1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="320" y="40" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T0Cyi-2OSDRXDh4SfshX-7" value="Private Network 2" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="320" y="98" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T0Cyi-2OSDRXDh4SfshX-9" value="CIDR Reservation 1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="135" y="230" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T0Cyi-2OSDRXDh4SfshX-12" value="&lt;font&gt;VPC&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="125" width="375" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uWVi8qN0-bEgtL4JRss-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="227.5" y="300" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_uWVi8qN0-bEgtL4JRss-1" value="Kubernetes cluster" style="text;html=1;strokeColor=#36393d;fillColor=#eeeeee;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="227.5" y="480" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uWVi8qN0-bEgtL4JRss-2" value="Kubernetes API" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/business-black-1/64/30-128.png;fillColor=none;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="317.5" y="398" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="_uWVi8qN0-bEgtL4JRss-3" value="etcd" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/business-black-1/64/30-128.png;fillColor=none;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="237.5" y="398" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="_uWVi8qN0-bEgtL4JRss-4" value="coreDNS" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/business-black-1/64/30-128.png;fillColor=none;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="285.5" y="310" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="_uWVi8qN0-bEgtL4JRss-5" value="Private Network 3" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="320" y="160" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_uWVi8qN0-bEgtL4JRss-6" value="CIDR Reservation 2" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="320" y="230" width="165" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
