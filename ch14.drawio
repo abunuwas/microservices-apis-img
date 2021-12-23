@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T12:24:09.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VleIEBNh0h6EnlsilnFY" version="16.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-23T12:51:19.693Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="LqurUwipPzNSrAZaB9S5" version="16.0.3" type="github" pages="3">
   <diagram id="0C1uWPmxnuECX0CIdEsk" name="14.1">
     <mxGraphModel dx="951" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -211,10 +211,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="un5JDlMGOiTpnzf9oCof" name="14.3">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="R5fkSSDyjKC_L6WwUJKc-0" />
         <mxCell id="R5fkSSDyjKC_L6WwUJKc-1" parent="R5fkSSDyjKC_L6WwUJKc-0" />
+        <mxCell id="xtQe9HtZpjDswxw5upqC-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#D80073;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
+          <mxGeometry x="280" y="70" width="540" height="290" as="geometry" />
+        </mxCell>
         <mxCell id="R5fkSSDyjKC_L6WwUJKc-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
           <mxGeometry x="672" y="125" width="120" height="190" as="geometry" />
         </mxCell>
@@ -240,13 +243,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R5fkSSDyjKC_L6WwUJKc-25" value="Service" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
-          <mxGeometry x="470" y="200.9" width="140" height="40" as="geometry" />
+          <mxGeometry x="540" y="200" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R5fkSSDyjKC_L6WwUJKc-27" value="Load &lt;br&gt;balancer" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;direction=south;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
+        <mxCell id="R5fkSSDyjKC_L6WwUJKc-27" value="Application Load &lt;br&gt;Balancer&lt;br&gt;(ALB)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;direction=south;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
           <mxGeometry x="150" y="140" width="80" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="R5fkSSDyjKC_L6WwUJKc-29" value="Ingress" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ffcccc;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
-          <mxGeometry x="280" y="200" width="140" height="40" as="geometry" />
+        <mxCell id="R5fkSSDyjKC_L6WwUJKc-29" value="Ingress Controller" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ffcccc;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
+          <mxGeometry x="280" y="200" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="R5fkSSDyjKC_L6WwUJKc-41" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
           <mxGeometry x="30" y="190" width="45.6" height="61.800000000000004" as="geometry" />
@@ -265,15 +268,27 @@
         </mxCell>
         <mxCell id="R5fkSSDyjKC_L6WwUJKc-46" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeColor=none;fillColor=#cdeb8b;" edge="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="219.6" as="sourcePoint" />
-            <mxPoint x="460" y="219.49999999999997" as="targetPoint" />
+            <mxPoint x="370" y="220.6" as="sourcePoint" />
+            <mxPoint x="400" y="220.49999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xtQe9HtZpjDswxw5upqC-0" value="The load balancer accepts traffic from the Internet and forwards it to a service using an Ingress rule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#9673A6;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
-          <mxGeometry x="250" y="130" width="180" height="40" as="geometry" />
+        <mxCell id="xtQe9HtZpjDswxw5upqC-0" value="The ALB accepts traffic from the Internet and forwards it to the Ingress Controller" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#9673A6;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
+          <mxGeometry x="100" y="85" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xtQe9HtZpjDswxw5upqC-1" value="&lt;font color=&quot;#d80073&quot;&gt;The service forwards traffic to the pods&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#9673A6;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
-          <mxGeometry x="480" y="130" width="140" height="40" as="geometry" />
+        <mxCell id="xtQe9HtZpjDswxw5upqC-3" value="&lt;font color=&quot;#000000&quot;&gt;Kubernetes cluster&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#D80073;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
+          <mxGeometry x="280" y="70" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xtQe9HtZpjDswxw5upqC-4" value="Ingress Resource" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ffcccc;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
+          <mxGeometry x="410" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xtQe9HtZpjDswxw5upqC-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeColor=none;fillColor=#cdeb8b;" edge="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="220.60000000000002" as="sourcePoint" />
+            <mxPoint x="530" y="220.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="il-4KCrFZuKBVYrEDKFM-0" value="&lt;font color=&quot;#d80073&quot;&gt;The Ingress Controller redirects traffic to the pods using an Ingress Resource per Service&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#9673A6;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
+          <mxGeometry x="320" y="135" width="260" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
