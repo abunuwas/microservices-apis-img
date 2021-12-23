@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T12:22:01.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Y1on-RQ-lY3AdqWKNgP9" version="16.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-23T12:24:09.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VleIEBNh0h6EnlsilnFY" version="16.0.3" type="github" pages="3">
   <diagram id="0C1uWPmxnuECX0CIdEsk" name="14.1">
     <mxGraphModel dx="951" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -268,6 +268,12 @@
             <mxPoint x="430" y="219.6" as="sourcePoint" />
             <mxPoint x="460" y="219.49999999999997" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xtQe9HtZpjDswxw5upqC-0" value="The load balancer accepts traffic from the Internet and forwards it to a service using an Ingress rule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#9673A6;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
+          <mxGeometry x="250" y="130" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xtQe9HtZpjDswxw5upqC-1" value="&lt;font color=&quot;#d80073&quot;&gt;The service forwards traffic to the pods&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#9673A6;" vertex="1" parent="R5fkSSDyjKC_L6WwUJKc-1">
+          <mxGeometry x="480" y="130" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
