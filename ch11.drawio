@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T11:33:59.229Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="kcdcn2DknH1tmAL8ZVju" version="16.0.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-05T11:34:08.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-rlhjgLnDOdckbxCGzvd" version="16.0.3" type="github" pages="12">
   <diagram id="nx3MoM29EwyBYq0CVW7p" name="11.1">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -124,7 +124,7 @@
           <mxGeometry x="230" y="271" width="50" height="54" as="geometry" />
         </mxCell>
         <mxCell id="sSWuBdSrLklBlBba6gmI-41" value="Upon Susan&#39;s successful login, the signing page produces a one-time code that LinkedIn can exchange for an access token" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sSWuBdSrLklBlBba6gmI-1" vertex="1">
-          <mxGeometry x="370" y="320" width="120" height="118.5" as="geometry" />
+          <mxGeometry x="370" y="320" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sSWuBdSrLklBlBba6gmI-45" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#B09500;fillColor=#e3c800;fontColor=#000000;" parent="sSWuBdSrLklBlBba6gmI-1" vertex="1">
           <mxGeometry x="606" y="300" width="20" height="20" as="geometry" />
