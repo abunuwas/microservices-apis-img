@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T22:25:20.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="C_YvJySK2NDgLtLX8uuN" version="16.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-05T08:05:41.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qxlEDSK7UdHZxl_a6EFG" version="16.0.3" type="github" pages="4">
   <diagram id="jovMUEUsAoA9us2FlJZT" name="11.11">
     <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,8 +46,8 @@
         <mxCell id="pluNNQmU8GMfLEWxcTc0-12" value="..." style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;" vertex="1" parent="1">
           <mxGeometry x="561" y="526.8" width="35" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K8NxNcGvJ9ICTIvefPYG-4" value="The CORS middleware enriches the request headers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="511" y="221.8" width="169" height="30" as="geometry" />
+        <mxCell id="K8NxNcGvJ9ICTIvefPYG-4" value="The CORS middleware sets the Access-Control-Allow-Origin header to the allow origins" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="511" y="221.8" width="279" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K8NxNcGvJ9ICTIvefPYG-7" value="The Auth middleware authorizes the request by checking the Authorization token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="330" width="240" height="30" as="geometry" />
