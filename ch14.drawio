@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T18:23:05.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="BTatQ7090KxAX-LvP_Kj" version="16.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-03-05T18:25:40.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="WCE6ahwxOiGi5Rz_irqP" version="16.6.6" type="github" pages="8">
   <diagram id="l09j2yV1FX3R2zhXrOuN" name="14.1">
     <mxGraphModel dx="949" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -355,7 +355,7 @@
         <mxCell id="T0Cyi-2OSDRXDh4SfshX-0" />
         <mxCell id="T0Cyi-2OSDRXDh4SfshX-1" parent="T0Cyi-2OSDRXDh4SfshX-0" />
         <mxCell id="T0Cyi-2OSDRXDh4SfshX-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#f9f7ed;" parent="T0Cyi-2OSDRXDh4SfshX-1" vertex="1">
-          <mxGeometry x="130" y="60" width="603" height="520" as="geometry" />
+          <mxGeometry x="110.5" y="50" width="650" height="580" as="geometry" />
         </mxCell>
         <mxCell id="t5nzZU4J1Ndz1dsp8S01-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#032DFF;strokeWidth=3;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
           <mxGeometry x="143" y="110" width="577" height="450" as="geometry" />
@@ -410,6 +410,12 @@
         </mxCell>
         <mxCell id="t5nzZU4J1Ndz1dsp8S01-3" value="Security group that allows communication between the control plane and the nodes" style="text;html=1;strokeColor=#0D05FF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeWidth=3;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
           <mxGeometry x="510" y="440" width="167" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t5nzZU4J1Ndz1dsp8S01-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#08FF10;strokeWidth=3;fillColor=none;dashPattern=1 1;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="130" y="90" width="610" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="t5nzZU4J1Ndz1dsp8S01-5" value="Kubernetes cluster" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=#08FF10;strokeWidth=3;fillColor=none;" vertex="1" parent="T0Cyi-2OSDRXDh4SfshX-1">
+          <mxGeometry x="346" y="570" width="168" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
