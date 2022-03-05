@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T22:37:06.283Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="q19jCK678JDXM2VPsaJQ" version="16.6.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-03-05T22:38:38.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="GbQpQu2fW4Q23qF2flub" version="16.6.6" type="github" pages="9">
   <diagram id="l09j2yV1FX3R2zhXrOuN" name="14.1">
     <mxGraphModel dx="949" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -688,6 +688,12 @@
         </mxCell>
         <mxCell id="Hy28l2YCa0EJTv2XQh2w-8" value="AWS API" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=none;strokeWidth=3;fillColor=#fff2cc;" vertex="1" parent="CIv3HVknMH57dnce4FLb-1">
           <mxGeometry x="590" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy28l2YCa0EJTv2XQh2w-10" value="Pods can authenticate with an OpenID Connect Provider" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="CIv3HVknMH57dnce4FLb-1">
+          <mxGeometry x="167" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy28l2YCa0EJTv2XQh2w-11" value="A successfully authenticated pod gets access to an IAM Role which gives the pod access to the AWS API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="CIv3HVknMH57dnce4FLb-1">
+          <mxGeometry x="425" y="200" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
