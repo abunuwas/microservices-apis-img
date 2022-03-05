@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T16:33:38.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="4aVPqQFGEolX-HmZ5ACh" version="16.6.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-03-05T16:35:56.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="4rnJIPA1ol0PrviHla47" version="16.6.6" type="github" pages="7">
   <diagram id="0C1uWPmxnuECX0CIdEsk" name="14.1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -563,10 +563,19 @@
             <mxPoint x="315" y="370" as="sourcePoint" />
             <mxPoint x="365" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="180" y="290" />
-              <mxPoint x="200" y="290" />
+              <mxPoint x="180" y="280" />
+              <mxPoint x="200" y="280" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-34" value="Mounting a volume on a file or folder allows the container to access them" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=default;strokeColor=none;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="350" y="520" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-35" value="Binding a port in the container to a port in the host operating system allows users to interact with the application" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=default;strokeColor=none;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="570" y="370" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-36" value="We can set environment variables for the container" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=default;strokeColor=none;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="20" y="290" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
