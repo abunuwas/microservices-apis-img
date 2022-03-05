@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T12:34:56.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="6Qr1LnZum_vA1Q7pwZW6" version="16.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-05T16:20:28.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="6SX2VfS60Nxq5Qr8O2hF" version="16.6.6" type="github" pages="7">
   <diagram id="0C1uWPmxnuECX0CIdEsk" name="14.1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -481,6 +481,44 @@
         </mxCell>
         <mxCell id="xND10WvVu1uBE-Xhnz6G-13" value="Application" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xND10WvVu1uBE-Xhnz6G-1">
           <mxGeometry x="500" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FvdG2lcwBOPjYXx5p--3" name="14.2">
+    <mxGraphModel dx="791" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-0" />
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-1" parent="wMUxBcKygIpMFjW0Sc5m-0" />
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="190" y="330" width="530" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-5" value="&lt;br&gt;&lt;br&gt;Container" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="460" y="360" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="180" y="440" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="450" y="385" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-10" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;orders.db" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="380" y="530" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-11" value="export DB_URL=sqlite:///orders.db" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="480" y="370" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-12" value="docker run" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="155" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-13" value="-env DB_URL=sqlite:///orders.db" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="225" y="250" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-14" value="&amp;nbsp;-v $(pwd)/orders.db:/orders/orders.db" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="405" y="250" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMUxBcKygIpMFjW0Sc5m-16" value="&amp;nbsp;-p 8000:8000 -it orders:1.0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="wMUxBcKygIpMFjW0Sc5m-1">
+          <mxGeometry x="615" y="250" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
