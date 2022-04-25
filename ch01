@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T13:48:39.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="NxuB2-ogHyZxQPV-2gIV" version="17.4.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-04-25T13:49:33.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="GB5EKsoEX9YJRaTqnWXD" version="17.4.6" type="github" pages="15">
   <diagram id="YP1BLuTZpU7ImdPQ2Ig-" name="1.1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -547,13 +547,13 @@
         <mxCell id="EREwYh8kY5POk2aNOcZ--0" />
         <mxCell id="EREwYh8kY5POk2aNOcZ--1" parent="EREwYh8kY5POk2aNOcZ--0" />
         <mxCell id="AUzR3x0SP0d3O1XDEZ7E-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;dashed=1;fontColor=#333333;" vertex="1" parent="EREwYh8kY5POk2aNOcZ--1">
-          <mxGeometry x="90" y="440" width="360" height="130" as="geometry" />
+          <mxGeometry x="80" y="440" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="AUzR3x0SP0d3O1XDEZ7E-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;dashed=1;fontColor=#333333;" vertex="1" parent="EREwYh8kY5POk2aNOcZ--1">
-          <mxGeometry x="90" y="585" width="360" height="130" as="geometry" />
+          <mxGeometry x="80" y="585" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="AUzR3x0SP0d3O1XDEZ7E-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;dashed=1;fontColor=#333333;" vertex="1" parent="EREwYh8kY5POk2aNOcZ--1">
-          <mxGeometry x="90" y="730" width="360" height="130" as="geometry" />
+          <mxGeometry x="80" y="730" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EREwYh8kY5POk2aNOcZ--2" value="&lt;font style=&quot;font-size: 20px&quot;&gt;orders service&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="EREwYh8kY5POk2aNOcZ--1" vertex="1">
           <mxGeometry x="80" y="30" width="170" height="100" as="geometry" />
@@ -697,13 +697,13 @@
             <mxPoint x="155" y="660.7700000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AUzR3x0SP0d3O1XDEZ7E-47" value="1. Customer places an order and pays for it" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EREwYh8kY5POk2aNOcZ--1">
+        <mxCell id="AUzR3x0SP0d3O1XDEZ7E-47" value="1. Customer places an order and pays for it" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="EREwYh8kY5POk2aNOcZ--1">
           <mxGeometry x="90" y="440" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUzR3x0SP0d3O1XDEZ7E-48" value="2. Upon successful payment, orders service schedules the order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EREwYh8kY5POk2aNOcZ--1">
-          <mxGeometry x="90" y="585" width="360" height="30" as="geometry" />
+        <mxCell id="AUzR3x0SP0d3O1XDEZ7E-48" value="2. Upon successful payment, orders service schedules the order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="EREwYh8kY5POk2aNOcZ--1">
+          <mxGeometry x="75" y="585" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUzR3x0SP0d3O1XDEZ7E-49" value="3. Once the order is ready, kitchen arranges its delivery" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="EREwYh8kY5POk2aNOcZ--1">
+        <mxCell id="AUzR3x0SP0d3O1XDEZ7E-49" value="3. Once the order is ready, kitchen arranges its delivery" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="EREwYh8kY5POk2aNOcZ--1">
           <mxGeometry x="90" y="730" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUzR3x0SP0d3O1XDEZ7E-54" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;dashed=1;fontSize=12;strokeColor=none;curved=1;endWidth=9.5625;endSize=3.18;width=4.75;fillColor=#f8cecc;" edge="1" parent="EREwYh8kY5POk2aNOcZ--1">
