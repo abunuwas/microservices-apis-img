@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T14:01:23.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="wO6FSWqDd7Ollb-PIlS7" version="17.4.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-04-25T14:03:30.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="LYMOYY8AXcwixYbNGlKS" version="17.4.6" type="github" pages="15">
   <diagram id="YP1BLuTZpU7ImdPQ2Ig-" name="1.1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -675,10 +675,10 @@
       <root>
         <mxCell id="028KPoaXkhBTyC-NU3Yr-0" />
         <mxCell id="028KPoaXkhBTyC-NU3Yr-1" parent="028KPoaXkhBTyC-NU3Yr-0" />
-        <mxCell id="FWtclvJmOVYWYtMUpyzm-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#000000;strokeWidth=1;fillColor=none;dashed=1;dashPattern=1 2;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
-          <mxGeometry x="380" y="138" width="130" height="140" as="geometry" />
+        <mxCell id="FWtclvJmOVYWYtMUpyzm-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;dashed=1;dashPattern=1 2;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
+          <mxGeometry x="470" y="140" width="130" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="FWtclvJmOVYWYtMUpyzm-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#000000;strokeWidth=1;fillColor=none;dashed=1;dashPattern=1 2;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
+        <mxCell id="FWtclvJmOVYWYtMUpyzm-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;dashed=1;dashPattern=1 2;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
           <mxGeometry x="400" y="10" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="028KPoaXkhBTyC-NU3Yr-2" value="&lt;font style=&quot;font-size: 20px&quot;&gt;orders service&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="028KPoaXkhBTyC-NU3Yr-1" vertex="1">
@@ -765,11 +765,19 @@
         <mxCell id="FWtclvJmOVYWYtMUpyzm-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=12;strokeColor=default;" edge="1" parent="028KPoaXkhBTyC-NU3Yr-1" target="FWtclvJmOVYWYtMUpyzm-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="158" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="340" y="158" />
+              <mxPoint x="340" y="190" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FWtclvJmOVYWYtMUpyzm-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;fontSize=12;strokeColor=default;" edge="1" parent="028KPoaXkhBTyC-NU3Yr-1" target="FWtclvJmOVYWYtMUpyzm-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="158" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="340" y="158" />
+              <mxPoint x="340" y="260" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FWtclvJmOVYWYtMUpyzm-1" value="Payments service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
@@ -788,14 +796,14 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FWtclvJmOVYWYtMUpyzm-8" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#000000;strokeWidth=1;fillColor=none;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
-          <mxGeometry x="430" y="168" width="30" height="40" as="geometry" />
+        <mxCell id="FWtclvJmOVYWYtMUpyzm-8" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#36393d;strokeWidth=1;fillColor=#ffcc99;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
+          <mxGeometry x="520" y="170" width="30" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FWtclvJmOVYWYtMUpyzm-9" value="Kitchen service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
-          <mxGeometry x="390" y="228" width="110" height="40" as="geometry" />
+          <mxGeometry x="480" y="230" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FWtclvJmOVYWYtMUpyzm-13" value="Payment successful" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
-          <mxGeometry x="380" y="138" width="130" height="30" as="geometry" />
+          <mxGeometry x="470" y="140" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FWtclvJmOVYWYtMUpyzm-14" value="Payment failed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
           <mxGeometry x="400" y="10" width="90" height="30" as="geometry" />
@@ -808,6 +816,12 @@
         </mxCell>
         <mxCell id="FWtclvJmOVYWYtMUpyzm-17" value="Process payment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
           <mxGeometry x="140" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FWtclvJmOVYWYtMUpyzm-18" value="Update the order&#39;s state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;fontSize=12;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
+          <mxGeometry x="370" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FWtclvJmOVYWYtMUpyzm-19" value="Schedule the order for production" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;fontSize=12;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
+          <mxGeometry x="360" y="210" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
