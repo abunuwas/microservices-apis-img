@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T20:39:35.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IKqiRsmWDKhtu8L09cVP" version="17.4.6" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2022-05-02T20:42:21.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="18_kJq4zitXW9Nta_Azu" version="17.4.6" type="github" pages="24">
   <diagram id="FA6qwCSaCcG-zHnPaiWo" name="4.1">
     <mxGraphModel dx="791" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -740,52 +740,49 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="CP8sQ7mT6AUj5MSbO3CM" name="4.16">
+  <diagram id="CP8sQ7mT6AUj5MSbO3CM" name="4.12">
     <mxGraphModel dx="1186" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="rQ8VvgtFnVs8ejl1RBXE-0" />
         <mxCell id="rQ8VvgtFnVs8ejl1RBXE-1" parent="rQ8VvgtFnVs8ejl1RBXE-0" />
-        <mxCell id="1fjTtXufa06TPHFMeHx_-0" value="Anonymus API client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;" parent="rQ8VvgtFnVs8ejl1RBXE-1" vertex="1">
-          <mxGeometry x="110" y="255" width="30" height="60" as="geometry" />
+        <mxCell id="nQLERjxeFv5ClL58b2fA-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;strokeWidth=1;elbow=vertical;startArrow=none;" edge="1" parent="rQ8VvgtFnVs8ejl1RBXE-1" source="nQLERjxeFv5ClL58b2fA-8" target="nQLERjxeFv5ClL58b2fA-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1fjTtXufa06TPHFMeHx_-1" value="" style="endArrow=classic;html=1;entryX=-0.008;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rQ8VvgtFnVs8ejl1RBXE-1" target="1fjTtXufa06TPHFMeHx_-5" edge="1">
+        <mxCell id="nQLERjxeFv5ClL58b2fA-1" value="GET /orders" style="text;html=1;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#36393d;fontSize=12;dashed=1;dashPattern=1 1;" vertex="1" parent="rQ8VvgtFnVs8ejl1RBXE-1">
+          <mxGeometry x="310" y="65" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nQLERjxeFv5ClL58b2fA-2" value="Status Code: 401 (Unauthorized)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;dashed=1;" vertex="1" parent="rQ8VvgtFnVs8ejl1RBXE-1">
+          <mxGeometry x="315.01" y="110" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nQLERjxeFv5ClL58b2fA-3" value="The API client is making an unauthenticated request" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;dashed=1;dashPattern=1 1;" vertex="1" parent="rQ8VvgtFnVs8ejl1RBXE-1">
+          <mxGeometry x="261.88" y="20" width="316.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nQLERjxeFv5ClL58b2fA-4" value="Unauthenticated client" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="rQ8VvgtFnVs8ejl1RBXE-1">
+          <mxGeometry x="210" y="63" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="nQLERjxeFv5ClL58b2fA-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="rQ8VvgtFnVs8ejl1RBXE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="125" y="287" as="sourcePoint" />
-            <mxPoint x="360" y="270" as="targetPoint" />
+            <mxPoint x="272" y="79.66999999999996" as="sourcePoint" />
+            <mxPoint x="302" y="79.66999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1fjTtXufa06TPHFMeHx_-2" value="&lt;font style=&quot;font-size: 20px&quot;&gt;GET /orders&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="rQ8VvgtFnVs8ejl1RBXE-1" vertex="1">
-          <mxGeometry x="240" y="220" width="170" height="60" as="geometry" />
+        <mxCell id="nQLERjxeFv5ClL58b2fA-6" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rQ8VvgtFnVs8ejl1RBXE-1">
+          <mxGeometry x="580" y="55" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1fjTtXufa06TPHFMeHx_-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="rQ8VvgtFnVs8ejl1RBXE-1" source="1fjTtXufa06TPHFMeHx_-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="905" y="460" as="sourcePoint" />
-            <mxPoint x="120" y="335" as="targetPoint" />
+        <mxCell id="nQLERjxeFv5ClL58b2fA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;strokeWidth=1;elbow=vertical;" edge="1" parent="rQ8VvgtFnVs8ejl1RBXE-1" source="nQLERjxeFv5ClL58b2fA-8" target="nQLERjxeFv5ClL58b2fA-2">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="630" y="370" />
-              <mxPoint x="120" y="370" />
+              <mxPoint x="558" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1fjTtXufa06TPHFMeHx_-4" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Status Code: 401 (Unauthorized)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rQ8VvgtFnVs8ejl1RBXE-1" vertex="1">
-          <mxGeometry x="170" y="315" width="360" height="40" as="geometry" />
+        <mxCell id="nQLERjxeFv5ClL58b2fA-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/CrystalClear/16x16/actions/gg_ignored.png;dashed=1;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="rQ8VvgtFnVs8ejl1RBXE-1">
+          <mxGeometry x="550" y="72" width="16" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="1fjTtXufa06TPHFMeHx_-5" value="&lt;font style=&quot;font-size: 20px&quot;&gt;/orders/{order_id}&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="rQ8VvgtFnVs8ejl1RBXE-1" vertex="1">
-          <mxGeometry x="510" y="245" width="240" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="1fjTtXufa06TPHFMeHx_-6" value="&lt;font style=&quot;font-size: 16px&quot;&gt;The API client is making an unauthenticated request&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rQ8VvgtFnVs8ejl1RBXE-1" vertex="1">
-          <mxGeometry x="150" y="160" width="400" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1fjTtXufa06TPHFMeHx_-7" value="" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF0000;strokeWidth=2;" parent="rQ8VvgtFnVs8ejl1RBXE-1" vertex="1">
-          <mxGeometry x="60" y="320" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1fjTtXufa06TPHFMeHx_-8" value="" style="endArrow=classic;html=1;exitX=0.371;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="rQ8VvgtFnVs8ejl1RBXE-1" source="1fjTtXufa06TPHFMeHx_-7" target="1fjTtXufa06TPHFMeHx_-6" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="250" as="sourcePoint" />
-            <mxPoint x="90" y="200" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="86" y="185" />
-            </Array>
+        <mxCell id="nQLERjxeFv5ClL58b2fA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;strokeWidth=1;elbow=vertical;endArrow=none;" edge="1" parent="rQ8VvgtFnVs8ejl1RBXE-1" source="nQLERjxeFv5ClL58b2fA-1" target="nQLERjxeFv5ClL58b2fA-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="80" as="sourcePoint" />
+            <mxPoint x="640" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
