@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T20:44:25.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="HXdO6AqUg_BWrkw2HY3p" version="17.4.6" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2022-05-02T21:32:40.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="gss0HE1CiaCo8ILuge0h" version="17.4.6" type="github" pages="24">
   <diagram id="FA6qwCSaCcG-zHnPaiWo" name="4.1">
     <mxGraphModel dx="791" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -741,7 +741,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CP8sQ7mT6AUj5MSbO3CM" name="4.12">
-    <mxGraphModel dx="1186" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="rQ8VvgtFnVs8ejl1RBXE-0" />
         <mxCell id="rQ8VvgtFnVs8ejl1RBXE-1" parent="rQ8VvgtFnVs8ejl1RBXE-0" />
@@ -789,7 +789,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8MADeiEb76DGzpc5xetK" name="4.13">
-    <mxGraphModel dx="1186" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="kvSGaSK4yrXWrMyaHkya-0" />
         <mxCell id="kvSGaSK4yrXWrMyaHkya-1" parent="kvSGaSK4yrXWrMyaHkya-0" />
@@ -837,45 +837,48 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6Pt1CP7o8mptZIu-AHOO" name="4.18">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="X6NOVMS7e9aysiPM2Tp--0" />
         <mxCell id="X6NOVMS7e9aysiPM2Tp--1" parent="X6NOVMS7e9aysiPM2Tp--0" />
-        <mxCell id="X6NOVMS7e9aysiPM2Tp--2" value="API consumer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
-          <mxGeometry x="150" y="115" width="30" height="60" as="geometry" />
+        <mxCell id="Dpl9o-Tk0O8UzrlQWrNc-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;strokeWidth=1;elbow=vertical;startArrow=none;" edge="1" parent="X6NOVMS7e9aysiPM2Tp--1" source="Dpl9o-Tk0O8UzrlQWrNc-8" target="Dpl9o-Tk0O8UzrlQWrNc-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X6NOVMS7e9aysiPM2Tp--3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.008;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="X6NOVMS7e9aysiPM2Tp--1" source="X6NOVMS7e9aysiPM2Tp--2" target="X6NOVMS7e9aysiPM2Tp--7">
+        <mxCell id="Dpl9o-Tk0O8UzrlQWrNc-1" value="GET /orders" style="text;html=1;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#36393d;fontSize=12;dashed=1;dashPattern=1 1;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
+          <mxGeometry x="310" y="65" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpl9o-Tk0O8UzrlQWrNc-2" value="Status Code: 500 (Internal Server Error)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;dashed=1;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
+          <mxGeometry x="307.49" y="120" width="225.01" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpl9o-Tk0O8UzrlQWrNc-3" value="Error happens while processing the request and the response cannot be served" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;dashed=1;dashPattern=1 1;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
+          <mxGeometry x="261.88" y="10" width="316.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpl9o-Tk0O8UzrlQWrNc-4" value="Unauthenticated client" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
+          <mxGeometry x="210" y="63" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpl9o-Tk0O8UzrlQWrNc-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="X6NOVMS7e9aysiPM2Tp--1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="180" as="sourcePoint" />
-            <mxPoint x="400" y="130" as="targetPoint" />
+            <mxPoint x="272" y="79.66999999999996" as="sourcePoint" />
+            <mxPoint x="302" y="79.66999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X6NOVMS7e9aysiPM2Tp--4" value="&lt;font style=&quot;font-size: 20px&quot;&gt;GET /orders&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
-          <mxGeometry x="290" y="80" width="160" height="60" as="geometry" />
+        <mxCell id="Dpl9o-Tk0O8UzrlQWrNc-6" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
+          <mxGeometry x="600" y="55" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="X6NOVMS7e9aysiPM2Tp--5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="X6NOVMS7e9aysiPM2Tp--1" source="X6NOVMS7e9aysiPM2Tp--8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="945" y="320" as="sourcePoint" />
-            <mxPoint x="160" y="195" as="targetPoint" />
+        <mxCell id="Dpl9o-Tk0O8UzrlQWrNc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;strokeWidth=1;elbow=vertical;" edge="1" parent="X6NOVMS7e9aysiPM2Tp--1" source="Dpl9o-Tk0O8UzrlQWrNc-8" target="Dpl9o-Tk0O8UzrlQWrNc-2">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="670" y="410" />
-              <mxPoint x="160" y="410" />
+              <mxPoint x="578" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X6NOVMS7e9aysiPM2Tp--6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Status Code: 500 (Internal Server Error)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
-          <mxGeometry x="160" y="350" width="510" height="40" as="geometry" />
+        <mxCell id="Dpl9o-Tk0O8UzrlQWrNc-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/CrystalClear/16x16/actions/gg_ignored.png;dashed=1;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
+          <mxGeometry x="570" y="72" width="16" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="X6NOVMS7e9aysiPM2Tp--7" value="&lt;font style=&quot;font-size: 20px&quot;&gt;/orders&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
-          <mxGeometry x="550" y="105" width="240" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="X6NOVMS7e9aysiPM2Tp--8" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Error happens while processing the request and the response cannot be served&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="X6NOVMS7e9aysiPM2Tp--1">
-          <mxGeometry x="505" y="230" width="330" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="X6NOVMS7e9aysiPM2Tp--9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X6NOVMS7e9aysiPM2Tp--1" source="X6NOVMS7e9aysiPM2Tp--7" target="X6NOVMS7e9aysiPM2Tp--8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="360" as="sourcePoint" />
-            <mxPoint x="670" y="250" as="targetPoint" />
+        <mxCell id="Dpl9o-Tk0O8UzrlQWrNc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;strokeWidth=1;elbow=vertical;endArrow=none;" edge="1" parent="X6NOVMS7e9aysiPM2Tp--1" source="Dpl9o-Tk0O8UzrlQWrNc-1" target="Dpl9o-Tk0O8UzrlQWrNc-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="80" as="sourcePoint" />
+            <mxPoint x="640" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
