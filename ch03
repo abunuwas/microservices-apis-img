@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T10:29:48.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="-LNWyTmhkqTnbjUjwRV2" version="17.4.6" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-05-02T10:30:29.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="05vwW9Y8I8_n-7mDZKTI" version="17.4.6" type="github" pages="18">
   <diagram id="HAQ0-d7IINLu6iYu0KUV" name="3.1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -289,7 +289,7 @@
           <mxGeometry x="680" y="190.5" width="58" height="34" as="geometry" />
         </mxCell>
         <mxCell id="C0Y2xHl_4e4CrRwSf3bA-6" value="Ingredients service&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="250" y="355.5" width="120" height="90" as="geometry" />
+          <mxGeometry x="310" y="355.5" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="C0Y2xHl_4e4CrRwSf3bA-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/bold-purple-free-samples/32/Cup_Coffee_Hot_Cafe_Beverage-128.png" vertex="1" parent="1">
           <mxGeometry x="567.5" y="198.47" width="31" height="31" as="geometry" />
@@ -310,7 +310,7 @@
           <mxGeometry x="386.5" y="247" width="31" height="31" as="geometry" />
         </mxCell>
         <mxCell id="C0Y2xHl_4e4CrRwSf3bA-15" value="is it available?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="288" y="290" width="82" height="30" as="geometry" />
+          <mxGeometry x="280" y="290" width="82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C0Y2xHl_4e4CrRwSf3bA-17" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="C0Y2xHl_4e4CrRwSf3bA-25" target="C0Y2xHl_4e4CrRwSf3bA-15">
           <mxGeometry relative="1" as="geometry">
@@ -328,7 +328,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C0Y2xHl_4e4CrRwSf3bA-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/2-building-line-filled/614/Warehouse-128.png" vertex="1" parent="1">
-          <mxGeometry x="285" y="395.5" width="50" height="50" as="geometry" />
+          <mxGeometry x="345" y="395.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="C0Y2xHl_4e4CrRwSf3bA-22" value="CoffeeMesh catalogue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="453" y="144.47" width="160" height="40" as="geometry" />
