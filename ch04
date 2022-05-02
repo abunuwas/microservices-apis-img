@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T18:11:48.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="lV9M6piteHLePfybeCDp" version="17.4.6" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2022-05-02T18:13:04.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="yK-TTTwhWwjuZarw9f4Q" version="17.4.6" type="github" pages="25">
   <diagram id="FA6qwCSaCcG-zHnPaiWo" name="4.1">
     <mxGraphModel dx="791" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -245,7 +245,7 @@
           <mxGeometry x="90" y="100" width="620" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VcmVZCKsmH7lMq5XfYgj-38" value="Cache the result" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontFamily=Helvetica;horizontal=0;" vertex="1" parent="ebW_NgDwTjHAN0P4dn4c-1">
-          <mxGeometry x="247.5" y="360" width="30" height="120" as="geometry" />
+          <mxGeometry x="250" y="360" width="32.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VcmVZCKsmH7lMq5XfYgj-39" value="When we check the order&#39;s status the next time, the orders service reads the value from the cache" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="ebW_NgDwTjHAN0P4dn4c-1">
           <mxGeometry x="345" y="340" width="390" height="50" as="geometry" />
