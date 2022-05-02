@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T21:32:40.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="gss0HE1CiaCo8ILuge0h" version="17.4.6" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2022-05-02T21:48:56.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="x3JIUUR293LmDsBJQEGC" version="17.4.6" type="github" pages="24">
   <diagram id="FA6qwCSaCcG-zHnPaiWo" name="4.1">
     <mxGraphModel dx="791" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -836,7 +836,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="6Pt1CP7o8mptZIu-AHOO" name="4.18">
+  <diagram id="6Pt1CP7o8mptZIu-AHOO" name="4.14">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="X6NOVMS7e9aysiPM2Tp--0" />
@@ -885,48 +885,48 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OSh7narIqVMIlFmq2sh7" name="4.19">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="MKSKgePG_7XzRnP8OZkK-0" />
         <mxCell id="MKSKgePG_7XzRnP8OZkK-1" parent="MKSKgePG_7XzRnP8OZkK-0" />
-        <mxCell id="MKSKgePG_7XzRnP8OZkK-2" value="API consumer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
-          <mxGeometry x="40" y="135" width="30" height="60" as="geometry" />
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;strokeWidth=1;elbow=vertical;startArrow=none;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1" source="u5tBvZ4SMtQeqFAerwnX-8" target="u5tBvZ4SMtQeqFAerwnX-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MKSKgePG_7XzRnP8OZkK-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1" source="MKSKgePG_7XzRnP8OZkK-2" target="MKSKgePG_7XzRnP8OZkK-9">
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-1" value="GET /orders" style="text;html=1;fillColor=#f9f7ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#36393d;fontSize=12;dashed=1;dashPattern=1 1;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="310" y="65" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-2" value="Status Code: 503 (Service Unavailable)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;dashed=1;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="307.49" y="120" width="225.01" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-3" value="API server is overloaded and can&#39;t take on more requests" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;dashed=1;dashPattern=1 1;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="255.93" y="10" width="328.12" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-4" value="Unauthenticated client" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="210" y="63" width="58" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="200" as="sourcePoint" />
-            <mxPoint x="290" y="150" as="targetPoint" />
+            <mxPoint x="272" y="79.66999999999996" as="sourcePoint" />
+            <mxPoint x="302" y="79.66999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MKSKgePG_7XzRnP8OZkK-4" value="&lt;font style=&quot;font-size: 20px&quot;&gt;GET /orders&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
-          <mxGeometry x="150" y="100" width="160" height="60" as="geometry" />
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-6" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="600" y="55" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MKSKgePG_7XzRnP8OZkK-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1" source="MKSKgePG_7XzRnP8OZkK-9">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="835" y="340" as="sourcePoint" />
-            <mxPoint x="50" y="215" as="targetPoint" />
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;strokeWidth=1;elbow=vertical;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1" source="u5tBvZ4SMtQeqFAerwnX-8" target="u5tBvZ4SMtQeqFAerwnX-2">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="290" />
-              <mxPoint x="50" y="290" />
+              <mxPoint x="578" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MKSKgePG_7XzRnP8OZkK-6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Status Code: 503 (Service Unavailable)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
-          <mxGeometry x="60" y="240" width="400" height="40" as="geometry" />
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/CrystalClear/16x16/actions/gg_ignored.png;dashed=1;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+          <mxGeometry x="570" y="72" width="16" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="MKSKgePG_7XzRnP8OZkK-7" value="&lt;font style=&quot;font-size: 20px&quot;&gt;/orders&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
-          <mxGeometry x="630" y="130" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="MKSKgePG_7XzRnP8OZkK-8" value="&lt;font style=&quot;font-size: 16px&quot;&gt;API server is overloaded and can&#39;t take on more requests&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
-          <mxGeometry x="583.13" y="60" width="233.75" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="MKSKgePG_7XzRnP8OZkK-9" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Proxy server&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
-          <mxGeometry x="380" y="130" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="MKSKgePG_7XzRnP8OZkK-10" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1" source="MKSKgePG_7XzRnP8OZkK-9" target="MKSKgePG_7XzRnP8OZkK-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="310" as="sourcePoint" />
-            <mxPoint x="440" y="260" as="targetPoint" />
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;strokeWidth=1;elbow=vertical;endArrow=none;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1" source="u5tBvZ4SMtQeqFAerwnX-1" target="u5tBvZ4SMtQeqFAerwnX-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="80" as="sourcePoint" />
+            <mxPoint x="640" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
