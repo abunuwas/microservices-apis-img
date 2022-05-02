@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T21:48:56.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="x3JIUUR293LmDsBJQEGC" version="17.4.6" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2022-05-02T21:49:03.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="wchk8hN4IXhi-r52F_5k" version="17.4.6" type="github" pages="24">
   <diagram id="FA6qwCSaCcG-zHnPaiWo" name="4.1">
     <mxGraphModel dx="791" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -901,7 +901,7 @@
         <mxCell id="u5tBvZ4SMtQeqFAerwnX-3" value="API server is overloaded and can&#39;t take on more requests" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;dashed=1;dashPattern=1 1;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
           <mxGeometry x="255.93" y="10" width="328.12" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u5tBvZ4SMtQeqFAerwnX-4" value="Unauthenticated client" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
+        <mxCell id="u5tBvZ4SMtQeqFAerwnX-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;dashPattern=1 1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="MKSKgePG_7XzRnP8OZkK-1">
           <mxGeometry x="210" y="63" width="58" height="34" as="geometry" />
         </mxCell>
         <mxCell id="u5tBvZ4SMtQeqFAerwnX-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="MKSKgePG_7XzRnP8OZkK-1">
