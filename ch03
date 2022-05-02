@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T11:44:20.761Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="KdzbVRklvSutqEtGxcZM" version="17.4.6" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-05-02T11:44:42.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="M1SI7s6GX8jYmliKM4qh" version="17.4.6" type="github" pages="18">
   <diagram id="HAQ0-d7IINLu6iYu0KUV" name="3.1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -499,7 +499,7 @@
         <mxCell id="peq3aPJYeAAlWVUA5gy7-27" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/coffee-128.png;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="peq3aPJYeAAlWVUA5gy7-1" vertex="1">
           <mxGeometry x="455.01" y="732.87" width="15" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="peq3aPJYeAAlWVUA5gy7-28" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Step 6&lt;/b&gt;: We arrange the order&#39;s delivery&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="peq3aPJYeAAlWVUA5gy7-1" vertex="1">
+        <mxCell id="peq3aPJYeAAlWVUA5gy7-28" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Step 7&lt;/b&gt;: We arrange the order&#39;s delivery&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="peq3aPJYeAAlWVUA5gy7-1" vertex="1">
           <mxGeometry x="407.78999999999996" y="630" width="109.44" height="60" as="geometry" />
         </mxCell>
         <mxCell id="peq3aPJYeAAlWVUA5gy7-29" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#f9f7ed;fontSize=12;" parent="peq3aPJYeAAlWVUA5gy7-1" vertex="1">
@@ -511,7 +511,7 @@
         <mxCell id="peq3aPJYeAAlWVUA5gy7-31" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Your order is getting closer!&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="peq3aPJYeAAlWVUA5gy7-1" vertex="1">
           <mxGeometry x="139.98" y="688" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="peq3aPJYeAAlWVUA5gy7-32" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Step 7&lt;/b&gt;: The customer tracks the order&#39;s delivery&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="peq3aPJYeAAlWVUA5gy7-1" vertex="1">
+        <mxCell id="peq3aPJYeAAlWVUA5gy7-32" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Step 8&lt;/b&gt;: The customer tracks the order&#39;s delivery&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="peq3aPJYeAAlWVUA5gy7-1" vertex="1">
           <mxGeometry x="139.98" y="618" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d9j0m3nyJooV9afq8J2L-6" value="Customer" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" parent="peq3aPJYeAAlWVUA5gy7-1" vertex="1">
