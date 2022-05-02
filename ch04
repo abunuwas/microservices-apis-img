@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T22:23:34.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="vPNJmosklWEiZkD0ipLv" version="17.4.6" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2022-05-02T22:24:26.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="-VngsNviJEKE8jzpcDTm" version="17.4.6" type="github" pages="24">
   <diagram id="FA6qwCSaCcG-zHnPaiWo" name="4.1">
     <mxGraphModel dx="791" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -981,7 +981,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9LYkY3b7FNGSMH3YFesE" name="4.21">
-    <mxGraphModel dx="791" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="791" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="rC7UifFG9nt-c3OapRrg-0" />
         <mxCell id="rC7UifFG9nt-c3OapRrg-1" parent="rC7UifFG9nt-c3OapRrg-0" />
@@ -1002,7 +1002,9 @@
             <Array as="points">
               <mxPoint x="450" y="220" />
               <mxPoint x="540" y="220" />
-              <mxPoint x="540" y="288" />
+              <mxPoint x="540" y="280" />
+              <mxPoint x="530" y="280" />
+              <mxPoint x="530" y="282" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1030,8 +1032,8 @@
         <mxCell id="KV-aDiDKSUGTy1Ozwf5n-5" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="rC7UifFG9nt-c3OapRrg-1">
           <mxGeometry x="570" y="97" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KV-aDiDKSUGTy1Ozwf5n-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;strokeColor=#FF0000;fillColor=none;gradientColor=none;" vertex="1" parent="rC7UifFG9nt-c3OapRrg-1">
-          <mxGeometry x="239" y="273" width="144" height="30" as="geometry" />
+        <mxCell id="KV-aDiDKSUGTy1Ozwf5n-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;strokeColor=#FF0000;fillColor=none;gradientColor=none;dashed=1;dashPattern=1 1;strokeWidth=2;" vertex="1" parent="rC7UifFG9nt-c3OapRrg-1">
+          <mxGeometry x="239" y="260" width="271" height="43" as="geometry" />
         </mxCell>
         <mxCell id="KV-aDiDKSUGTy1Ozwf5n-10" value="Enrich the payload with server-generated properties, like the order ID and the status" style="text;html=1;strokeColor=#36393d;fillColor=#f9f7ed;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;dashed=1;spacingLeft=6;" vertex="1" parent="rC7UifFG9nt-c3OapRrg-1">
           <mxGeometry x="473" y="168" width="237" height="43" as="geometry" />
