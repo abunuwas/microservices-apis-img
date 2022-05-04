@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T17:37:06.729Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="q83i07GGr7VBmaSYfD7C" version="17.4.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-05-04T17:37:16.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="blSvAeKI8SGYd41H7IFE" version="17.4.6" type="github" pages="15">
   <diagram id="s5-NlCj1laCB3OtM3teV" name="6.1">
     <mxGraphModel dx="1186" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -368,7 +368,7 @@
           <mxGeometry x="440" y="315" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="muqCg_7ynaFDs2xk0H83-4" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;/kitchen/schedule/{schedule_id}/cancel&lt;/font&gt;" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;fontSize=12;" parent="muqCg_7ynaFDs2xk0H83-1" vertex="1">
-          <mxGeometry x="10" y="435" width="240" height="40" as="geometry" />
+          <mxGeometry x="15" y="435" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="muqCg_7ynaFDs2xk0H83-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="muqCg_7ynaFDs2xk0H83-1" source="muqCg_7ynaFDs2xk0H83-2" target="muqCg_7ynaFDs2xk0H83-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
