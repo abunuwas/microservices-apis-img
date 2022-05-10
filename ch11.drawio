@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T09:25:48.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="P98LHBdyjEYOAGt2W8Q_" version="18.0.2" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-05-10T09:27:00.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="BIxsPpJN_Cxyj26J0zwx" version="18.0.2" type="github" pages="15">
   <diagram id="nx3MoM29EwyBYq0CVW7p" name="11.1">
     <mxGraphModel dx="949" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
         <mxCell id="LlNwTUj5z4B6Rv4trySl-10" value="Authorization server" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
           <mxGeometry x="588" y="30" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LlNwTUj5z4B6Rv4trySl-11" value="API server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
+        <mxCell id="LlNwTUj5z4B6Rv4trySl-11" value="API server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
           <mxGeometry x="585" y="510" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LlNwTUj5z4B6Rv4trySl-17" value="&lt;span style=&quot;&quot;&gt;The server exchanges a secret with the authorization server to produce a signing URL where the user can prove their identity and grant access&lt;/span&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;spacingLeft=35;" vertex="1" parent="sSWuBdSrLklBlBba6gmI-1">
