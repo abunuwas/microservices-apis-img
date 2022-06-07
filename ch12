@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T11:59:24.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="deczJQKAJ_NIB4gmLN3B" version="19.0.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-06-07T12:01:33.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="M6A_UH-25_GB8e76wVCc" version="19.0.1" type="github" pages="10">
   <diagram id="Rg72lAJUHB7CzN0WeJY6" name="12.1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -693,33 +693,33 @@
         <mxCell id="0av1TEpJmifo5Ll8fkbY-0" />
         <mxCell id="0av1TEpJmifo5Ll8fkbY-1" parent="0av1TEpJmifo5Ll8fkbY-0" />
         <mxCell id="0av1TEpJmifo5Ll8fkbY-2" value="&lt;div&gt;paths:&lt;/div&gt;&lt;div&gt;&amp;nbsp; /orders:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; get:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; [...]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; post:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; [...]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; responses:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;[...]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; links:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; GetOrder:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; operationId: getOrder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; parameters:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; order_id: &#39;$response.body#/id&#39;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; description: &amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; The `id` value returned in the response can be used as&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; the `order_id` parameter in `GET /orders/{order_id}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [...]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; /orders/{order_id}:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; parameters:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - in: path&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name: order_id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; required: true&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; schema:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; type: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; format: uuid&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; example: d222e7a3-6afb-463a-9709-38eb70cc670d&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; get:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; operationId: getOrder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; [...]&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=9;fillColor=#ffffff;" parent="0av1TEpJmifo5Ll8fkbY-1" vertex="1">
-          <mxGeometry x="50" y="30" width="430" height="620" as="geometry" />
+          <mxGeometry x="50" y="30" width="430" height="670" as="geometry" />
         </mxCell>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=left;strokeColor=#FF0000;dashed=1;dashPattern=1 1;" parent="0av1TEpJmifo5Ll8fkbY-1" vertex="1">
-          <mxGeometry x="100" y="246" width="130" height="30" as="geometry" />
+          <mxGeometry x="100" y="271" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=left;strokeColor=#FF0000;dashed=1;dashPattern=1 1;" parent="0av1TEpJmifo5Ll8fkbY-1" vertex="1">
-          <mxGeometry x="101" y="304" width="180" height="30" as="geometry" />
+          <mxGeometry x="102" y="327" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=left;strokeColor=#FF0000;dashed=1;dashPattern=1 1;" parent="0av1TEpJmifo5Ll8fkbY-1" vertex="1">
-          <mxGeometry x="61" y="88" width="50" height="30" as="geometry" />
+          <mxGeometry x="61" y="112" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-6" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=left;strokeColor=#FF0000;dashed=1;dashPattern=1 1;" parent="0av1TEpJmifo5Ll8fkbY-1" vertex="1">
-          <mxGeometry x="77" y="477" width="100" height="30" as="geometry" />
+          <mxGeometry x="78" y="500" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=left;strokeColor=#FF0000;dashed=1;dashPattern=1 1;" parent="0av1TEpJmifo5Ll8fkbY-1" vertex="1">
-          <mxGeometry x="70" y="604" width="140" height="33" as="geometry" />
+          <mxGeometry x="70" y="629" width="140" height="33" as="geometry" />
         </mxCell>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-8" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=left;strokeColor=#FF0000;dashed=1;dashPattern=1 1;" parent="0av1TEpJmifo5Ll8fkbY-1" vertex="1">
-          <mxGeometry x="82" y="188" width="50" height="30" as="geometry" />
+          <mxGeometry x="82" y="212" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-9" value="" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" parent="0av1TEpJmifo5Ll8fkbY-1" target="0av1TEpJmifo5Ll8fkbY-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="102" as="sourcePoint" />
-            <mxPoint x="560" y="102" as="targetPoint" />
+            <mxPoint x="110" y="126" as="sourcePoint" />
+            <mxPoint x="560" y="126" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="180" y="102" />
-              <mxPoint x="180" y="210" />
+              <mxPoint x="180" y="126" />
+              <mxPoint x="180" y="234" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -728,11 +728,11 @@
         </mxCell>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-11" value="" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="0av1TEpJmifo5Ll8fkbY-1" target="0av1TEpJmifo5Ll8fkbY-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="268" as="sourcePoint" />
-            <mxPoint x="360" y="229" as="targetPoint" />
+            <mxPoint x="230" y="293" as="sourcePoint" />
+            <mxPoint x="360" y="254" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="440" y="268" />
-              <mxPoint x="440" y="621" />
+              <mxPoint x="440" y="293" />
+              <mxPoint x="440" y="646" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -741,16 +741,16 @@
         </mxCell>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-13" value="" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="0av1TEpJmifo5Ll8fkbY-1" source="0av1TEpJmifo5Ll8fkbY-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="504" as="sourcePoint" />
-            <mxPoint x="180" y="494" as="targetPoint" />
+            <mxPoint x="551" y="527" as="sourcePoint" />
+            <mxPoint x="181" y="517" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="319" />
-              <mxPoint x="430" y="494" />
+              <mxPoint x="431" y="342" />
+              <mxPoint x="431" y="517" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-14" value="The response payload from the POST /orders endpoint contains an id property that can be used to substitute the orderId parameter in the /orders/{order_id} URL path" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;spacingLeft=9;spacingRight=6;dashed=1;dashPattern=1 1;" parent="0av1TEpJmifo5Ll8fkbY-1" vertex="1">
-          <mxGeometry x="190" y="393" width="230" height="90" as="geometry" />
+          <mxGeometry x="191" y="417" width="230" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
