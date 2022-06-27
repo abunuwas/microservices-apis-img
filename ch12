@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T16:29:25.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="WJhf-hXrTZWpOqO5mvfp" version="20.0.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-06-27T16:34:36.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="9zUeFd2BwRMB-Pn7SaRu" version="20.0.1" type="github" pages="11">
   <diagram id="Rg72lAJUHB7CzN0WeJY6" name="12.1">
     <mxGraphModel dx="1186" dy="707" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -262,7 +262,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G7Qh-1wi5uRmOiFhReY0" name="12.3">
-    <mxGraphModel dx="1186" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="949" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="7Jm8SOsXDRsApFwFhs8c-0" />
         <mxCell id="7Jm8SOsXDRsApFwFhs8c-1" parent="7Jm8SOsXDRsApFwFhs8c-0" />
@@ -272,10 +272,10 @@
         <mxCell id="LLonfTV_o_7cFFRW544i-0" value="POST /orders/23de3420-2e49-4a10-857c-328e1023fbdb/cancel" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7Jm8SOsXDRsApFwFhs8c-1" vertex="1">
           <mxGeometry x="310" y="430" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XaVoWBfZQPxUaPfma16s-0" value="before_cancel_task()" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7Jm8SOsXDRsApFwFhs8c-1" vertex="1">
+        <mxCell id="XaVoWBfZQPxUaPfma16s-0" value="before_cancel_order()" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7Jm8SOsXDRsApFwFhs8c-1" vertex="1">
           <mxGeometry x="130" y="435" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XaVoWBfZQPxUaPfma16s-1" value="before_pay_task()" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7Jm8SOsXDRsApFwFhs8c-1" vertex="1">
+        <mxCell id="XaVoWBfZQPxUaPfma16s-1" value="before_pay_order()" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7Jm8SOsXDRsApFwFhs8c-1" vertex="1">
           <mxGeometry x="130" y="235" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hMC-CfJO-VmnvmHeDi-x-0" value="POST /orders&lt;br&gt;Body {}" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7Jm8SOsXDRsApFwFhs8c-1" vertex="1">
@@ -334,8 +334,8 @@
             <mxPoint x="330" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wG_u3yzdwN6349GfwOVR-0" value="1. Before executing the test, the before_pay_task() and the before_cancel_task() hooks use the POST /orders endpoint to create a new resource for use during their tests" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;spacingLeft=9;" parent="7Jm8SOsXDRsApFwFhs8c-1" vertex="1">
-          <mxGeometry x="50" y="160" width="335" height="60" as="geometry" />
+        <mxCell id="wG_u3yzdwN6349GfwOVR-0" value="1. Before executing the test, the before_pay_order() and the before_cancel_order() hooks use the POST /orders endpoint to create a new resource for use during their tests" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;spacingLeft=10;spacingRight=10;" parent="7Jm8SOsXDRsApFwFhs8c-1" vertex="1">
+          <mxGeometry x="50" y="160" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wG_u3yzdwN6349GfwOVR-1" value="2. Once the resource is created, the hooks use the ID from the response payload to form the resource URL" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;spacingLeft=9;" parent="7Jm8SOsXDRsApFwFhs8c-1" vertex="1">
           <mxGeometry x="250" y="270" width="250" height="60" as="geometry" />
@@ -526,7 +526,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wLVz5enuJdNX6KmieAmr" name="12.5">
-    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="WetDmGb70xIUYli0F1k1-0" />
         <mxCell id="WetDmGb70xIUYli0F1k1-1" parent="WetDmGb70xIUYli0F1k1-0" />
@@ -612,7 +612,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wPwZ7IETNEfJ6GITH5ix" name="12.6">
-    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="OKAjjQBegodmfxepKajz-0" />
         <mxCell id="OKAjjQBegodmfxepKajz-1" parent="OKAjjQBegodmfxepKajz-0" />
@@ -870,7 +870,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dWM2riozsmKlTqWB3MKX" name="12.9">
-    <mxGraphModel dx="949" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0av1TEpJmifo5Ll8fkbY-0" />
         <mxCell id="0av1TEpJmifo5Ll8fkbY-1" parent="0av1TEpJmifo5Ll8fkbY-0" />
@@ -938,7 +938,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yVZCUAd2kXt3Lbncrb2M" name="12.10">
-    <mxGraphModel dx="1186" dy="764" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="707" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="gFwrCQvixq3epzovxKpY-0" />
         <mxCell id="gFwrCQvixq3epzovxKpY-1" parent="gFwrCQvixq3epzovxKpY-0" />
@@ -957,7 +957,7 @@
             <mxPoint x="498" y="284" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gFwrCQvixq3epzovxKpY-22" value="&lt;div&gt;&lt;span&gt;allIngredients {&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; name,&lt;/div&gt;&lt;div&gt;&amp;nbsp; description&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;spacingLeft=9;" parent="gFwrCQvixq3epzovxKpY-1" vertex="1">
+        <mxCell id="gFwrCQvixq3epzovxKpY-22" value="&lt;div&gt;&lt;span&gt;allIngredients {&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; name,&lt;/div&gt;&lt;div&gt;&amp;nbsp; description&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;spacingLeft=9;strokeColor=default;dashed=1;" parent="gFwrCQvixq3epzovxKpY-1" vertex="1">
           <mxGeometry x="525" y="251" width="105" height="81" as="geometry" />
         </mxCell>
         <mxCell id="gFwrCQvixq3epzovxKpY-24" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.121;entryY=0.796;entryDx=0;entryDy=0;entryPerimeter=0;" parent="gFwrCQvixq3epzovxKpY-1" source="gFwrCQvixq3epzovxKpY-22" target="gFwrCQvixq3epzovxKpY-2" edge="1">
