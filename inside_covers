@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T10:58:24.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jtI32LxJZmPYCi5houXg" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-29T10:58:34.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IkXVi-YIeti4PgaABJiq" version="20.0.3" type="github" pages="2">
   <diagram id="wsV2qm--9vh6VboVpwaB" name="inside_cover_1_1">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -198,7 +198,7 @@
         <mxCell id="b111am2I8bKEayDeRt5k-1" value="Collection endpoints" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="29" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="b111am2I8bKEayDeRt5k-2" value="Single endpoints" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="b111am2I8bKEayDeRt5k-2" value="Singleton endpoints" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="328.5" y="238.75" width="363" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b111am2I8bKEayDeRt5k-3" value="Singleton action endpoints" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
