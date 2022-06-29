@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T11:39:48.233Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Qk0RUrcojq4S7hOKfSUK" version="20.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-29T12:58:09.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="cgaKIa-jHDIv34WJqK2x" version="20.0.3" type="github" pages="4">
   <diagram id="wsV2qm--9vh6VboVpwaB" name="inside_cover_1_1">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -264,8 +264,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DEG2An3q0OtNDUvjyCDW-15" value="API layer&lt;br&gt;(adapter)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="195" y="450" width="110" height="50" as="geometry" />
+        <mxCell id="DEG2An3q0OtNDUvjyCDW-15" value="Interface layer&lt;br&gt;API&lt;br&gt;(adapter)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="195" y="430" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DEG2An3q0OtNDUvjyCDW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="DEG2An3q0OtNDUvjyCDW-44" target="DEG2An3q0OtNDUvjyCDW-14">
           <mxGeometry relative="1" as="geometry" />
@@ -301,6 +301,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="695" y="440" as="sourcePoint" />
             <mxPoint x="735" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXWhd1bOJVCOyinJkDda-1" value="client" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="434.1" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="NXWhd1bOJVCOyinJkDda-2" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffcccc;strokeColor=#36393d;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="464.9" as="sourcePoint" />
+            <mxPoint x="140" y="464.6" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
