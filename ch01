@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T17:37:52.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1oay_GWin6J09d6f9NNl" version="17.4.6" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-09-16T10:32:49.946Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WupP4fMcKTbf7kcff69z" version="20.3.1" type="github" pages="16">
   <diagram id="HtTLRpb-fBE_US3OG9Qm" name="1.1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -462,7 +462,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ScHqwPBkr-_SHE8Io3cv" name="1.7">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1141" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="028KPoaXkhBTyC-NU3Yr-0" />
         <mxCell id="028KPoaXkhBTyC-NU3Yr-1" parent="028KPoaXkhBTyC-NU3Yr-0" />
@@ -521,6 +521,9 @@
         <mxCell id="FWtclvJmOVYWYtMUpyzm-8" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#36393d;strokeWidth=1;fillColor=#ffcc99;" parent="028KPoaXkhBTyC-NU3Yr-1" vertex="1">
           <mxGeometry x="520" y="170" width="30" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="xSUrCAPAAQ82nS3GZv1t-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="028KPoaXkhBTyC-NU3Yr-1" source="FWtclvJmOVYWYtMUpyzm-9" target="xSUrCAPAAQ82nS3GZv1t-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FWtclvJmOVYWYtMUpyzm-9" value="Kitchen service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" parent="028KPoaXkhBTyC-NU3Yr-1" vertex="1">
           <mxGeometry x="480" y="230" width="110" height="40" as="geometry" />
         </mxCell>
@@ -547,6 +550,12 @@
         </mxCell>
         <mxCell id="FWtclvJmOVYWYtMUpyzm-20" value="Notify customer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;fontSize=12;" parent="028KPoaXkhBTyC-NU3Yr-1" vertex="1">
           <mxGeometry x="390" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xSUrCAPAAQ82nS3GZv1t-0" value="Products and ingredients service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
+          <mxGeometry x="720" y="230" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xSUrCAPAAQ82nS3GZv1t-2" value="Update the stock of ingredients" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;fontSize=12;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
+          <mxGeometry x="610" y="210" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
