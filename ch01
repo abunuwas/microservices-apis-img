@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T10:36:48.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xi5ZeZ3Q2vQY1rMuHHFH" version="20.3.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-09-16T10:37:38.182Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WP39-xMufpdkEE98S8UI" version="20.3.1" type="github" pages="16">
   <diagram id="HtTLRpb-fBE_US3OG9Qm" name="1.1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -548,26 +548,23 @@
         <mxCell id="FWtclvJmOVYWYtMUpyzm-20" value="Notify customer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;fontSize=12;" parent="028KPoaXkhBTyC-NU3Yr-1" vertex="1">
           <mxGeometry x="390" y="30" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xSUrCAPAAQ82nS3GZv1t-2" value="Update the stock of ingredients" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;fontSize=12;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
+          <mxGeometry x="610" y="203" width="100" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="xSUrCAPAAQ82nS3GZv1t-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;dashed=1;dashPattern=1 2;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
-          <mxGeometry x="670" y="135" width="130" height="150" as="geometry" />
+          <mxGeometry x="720" y="145" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="xSUrCAPAAQ82nS3GZv1t-4" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#36393d;strokeWidth=1;fillColor=#ffcc99;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
-          <mxGeometry x="720" y="185" width="30" height="40" as="geometry" />
+          <mxGeometry x="770" y="163" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xSUrCAPAAQ82nS3GZv1t-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="028KPoaXkhBTyC-NU3Yr-1" source="xSUrCAPAAQ82nS3GZv1t-5" target="xSUrCAPAAQ82nS3GZv1t-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xSUrCAPAAQ82nS3GZv1t-5" value="Products and ingredients service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
-          <mxGeometry x="680" y="235" width="110" height="40" as="geometry" />
+          <mxGeometry x="730" y="225" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xSUrCAPAAQ82nS3GZv1t-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="028KPoaXkhBTyC-NU3Yr-1" source="FWtclvJmOVYWYtMUpyzm-9" target="xSUrCAPAAQ82nS3GZv1t-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="250" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="640" y="250" />
-              <mxPoint x="640" y="205" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xSUrCAPAAQ82nS3GZv1t-2" value="Update the stock of ingredients" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;fontSize=12;" vertex="1" parent="028KPoaXkhBTyC-NU3Yr-1">
-          <mxGeometry x="670" y="145" width="130" height="30" as="geometry" />
+        <mxCell id="xSUrCAPAAQ82nS3GZv1t-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="028KPoaXkhBTyC-NU3Yr-1" source="FWtclvJmOVYWYtMUpyzm-9" target="xSUrCAPAAQ82nS3GZv1t-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
